@@ -142,17 +142,25 @@ class _PlayerState extends State<Player> {
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
-        items: const [
+        backgroundColor: Color.fromRGBO(19, 19, 19, 1),
+        type: BottomNavigationBarType.fixed,
+        unselectedLabelStyle: TextStyle(
+          color: Color.fromRGBO(157, 178, 206, 1),
+        ),
+        selectedLabelStyle: TextStyle(
+          color: Color.fromRGBO(230, 154, 21, 1),
+        ),
+        items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.favorite_border_outlined,
-              color: Color.fromRGBO(157, 178, 206, 1),
+              Icons.favorite_border,
+              color: Color.fromRGBO(230, 154, 21, 1),
             ),
             label: 'Favorite',
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.search_outlined,
+              Icons.search,
               color: Color.fromRGBO(157, 178, 206, 1),
             ),
             label: 'Search',
@@ -166,7 +174,7 @@ class _PlayerState extends State<Player> {
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.shopping_basket_outlined,
+              Icons.shopping_basket,
               color: Color.fromRGBO(157, 178, 206, 1),
             ),
             label: 'Cart',

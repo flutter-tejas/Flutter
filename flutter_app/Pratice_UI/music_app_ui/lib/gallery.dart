@@ -430,10 +430,18 @@ class _GalleryState extends State<Gallery> {
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
-        items: const [
+        backgroundColor: const Color.fromRGBO(19, 19, 19, 1),
+        type: BottomNavigationBarType.fixed,
+        unselectedLabelStyle: TextStyle(
+          color: Color.fromRGBO(157, 178, 206, 1),
+        ),
+        selectedLabelStyle: TextStyle(
+          color: Color.fromRGBO(230, 154, 21, 1),
+        ),
+        items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.favorite_border_outlined,
+              Icons.favorite,
               color: Color.fromRGBO(157, 178, 206, 1),
             ),
             label: 'Favorite',
@@ -454,7 +462,7 @@ class _GalleryState extends State<Gallery> {
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.shopping_basket_sharp,
+              Icons.shopping_basket,
               color: Color.fromRGBO(157, 178, 206, 1),
             ),
             label: 'Cart',
@@ -462,12 +470,11 @@ class _GalleryState extends State<Gallery> {
           BottomNavigationBarItem(
             icon: Icon(
               Icons.person,
-              color: Color.fromRGBO(157, 178, 206, 1),
+              color: Color.fromRGBO(230, 154, 21, 1),
             ),
             label: 'Profile',
           ),
         ],
-        backgroundColor: Color.fromRGBO(19, 19, 19, 1),
       ),
     );
   }
