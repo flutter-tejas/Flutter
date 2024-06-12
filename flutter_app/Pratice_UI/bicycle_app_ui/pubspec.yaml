@@ -1,0 +1,35 @@
+name: bicycle_app_ui
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  slide_to_act: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image 6.png
+    - assets/pngwing.png
+    - assets/pngwing (1).png
+    - assets/image 2 (1).png
+    - assets/image 1.png
+    - assets/image 3.png
+    - assets/image 4.png
+    - assets/pngwing (2).png
+    - assets/pngwing (3).png
+    - assets/pngwing (4).png
+    - assets/pngwing (5).png
+    - assets/image 3 (1).png
+    - assets/image 6 (1).png
