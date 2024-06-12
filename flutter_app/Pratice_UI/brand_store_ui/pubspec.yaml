@@ -1,0 +1,39 @@
+name: brand_store_ui
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_slidable: ^3.1.0
+  google_fonts: ^6.2.1
+  flutter_staggered_grid_view: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Rectangle 989.png
+    - assets/Rectangle 980 (1).png
+    - assets/Rectangle 984.png
+    - assets/Ellipse 14.png
+    - assets/Ellipse 15.png
+    - assets/Ellipse 16.png
+    - assets/Rectangle 980 (1).png
+    - assets/Rectangle 121.png
+    - assets/g13.png
+    - assets/Group 10.png
+    - assets/kisspng-logo-american-express-membership-rewards-organizat-2017-tigernu-brand-waterproof-15-6inch-laptop-back-5b65d997414970 1.png
+    - assets/Vector (3).png
+    - assets/visa.png
+    - assets/Rectangle 981 (1).png
+    - assets/Rectangle 981.png
+    - assets/Rectangle 980.png
