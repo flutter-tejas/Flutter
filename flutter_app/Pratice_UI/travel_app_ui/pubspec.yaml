@@ -1,0 +1,58 @@
+name: travel_app_ui
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  smooth_page_indicator: ^1.1.0
+  table_calendar: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/afbea499038243 1.png
+    - assets/7f47f9144194941 1.png
+    - assets/252a6624a42c117099537c7a1320256d 1.png
+    - assets/Group 332.png
+    - assets/Group 333.png
+    - assets/Group 334.png
+    - assets/Mask group (5).png
+    - assets/Group 21.png
+    - assets/Group 12 (1).png
+    - assets/af2a3946819dfaa9194f6eb90ce77764.jpeg
+    - assets/Rectangle 818.png
+    - assets/49024100a89c01bb1b2bacc523162e75.jpeg
+    - assets/Ellipse 25.png
+    - assets/Rectangle 822.png
+    - assets/Rectangle 823.png
+    - assets/Rectangle 824.png
+    - assets/Rectangle 825.png
+    - assets/Rectangle 826.png
+    - assets/32badb63498577.5ab28d9d515ac.png
+    - assets/Rectangle 833.png
+    - assets/Rectangle 833 (1).png
+    - assets/Group 96.png
+    - assets/Group 96 (1).png
+    - assets/Group 96 (2).png
+    - assets/Group 96 (3).png
+    - assets/Group 184.png
+    - assets/Group 185.png
+    - assets/Group 186.png
+    - assets/Group 187.png
+    - assets/Group 188.png
+    - assets/Mask group (6).png
+    - assets/Rectangle 818.png
+    - assets/Rectangle 29 (2).png
+    - assets/Rectangle 29.png
+    - assets/Rectangle 29 (1).png
