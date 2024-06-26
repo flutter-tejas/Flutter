@@ -1,0 +1,53 @@
+name: fitness_app_ui
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  google_nav_bar: ^5.0.6
+  percent_indicator: ^4.2.3
+  smooth_page_indicator: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Image.png
+    - assets/young-athletic-woman-white-headphones-training-listening-music-street-outdoors-working-lower-body-out-mat-concept-healthy-lifestyle-open-air-sport-activity-weight-loss 1.png
+    - assets/6659b929afb015ca0f0135e1947fdc01.jpeg
+    - assets/Image (1).png
+    - assets/Mask group (1).png
+    - assets/Mask group.png
+    - assets/image 2.png
+    - assets/image 63.png
+    - assets/Group 11.png
+    - assets/Group 5.png
+    - assets/Group 7.png
+    - assets/image 65.png
+    - assets/image 64.png
+    - assets/shirtless-athletic-male-doing-biceps-workouts-with-one-dumbbell-grey-vignette-background 1.png
+    - assets/image 67.png
+    - assets/image 68.png
+    - assets/Image (3).png
+    - assets/image 70.png
+    - assets/Image (2).png
+    - assets/Map.png
+    - assets/Group 4.png
+    - assets/Map.png
+    - assets/graph.png
+    - assets/icon.png
+    - assets/icon (1).png
+    - assets/Group 26.png
+    - assets/Vector.png
+    - assets/ic_water.png
+    - assets/Group 36951.png
