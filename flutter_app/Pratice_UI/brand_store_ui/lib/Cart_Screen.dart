@@ -26,10 +26,15 @@ class _Cart_ScreenState extends State<Cart_Screen> {
           children: [
             Row(
               children: [
-                const Icon(
-                  Icons.arrow_back_ios,
-                  size: 30,
-                  color: Color.fromRGBO(13, 13, 14, 1),
+                GestureDetector(
+                  onTap: () {
+                    Navigator.of(context).pop();
+                  },
+                  child: const Icon(
+                    Icons.arrow_back_ios,
+                    size: 30,
+                    color: Color.fromRGBO(13, 13, 14, 1),
+                  ),
                 ),
                 const SizedBox(
                   width: 130,

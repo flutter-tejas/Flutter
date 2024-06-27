@@ -3,7 +3,6 @@ import 'package:brand_store_ui/Cart_Screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-
 class Details_Screen extends StatefulWidget {
   const Details_Screen({super.key});
 
@@ -23,10 +22,15 @@ class _Details_ScreenState extends State<Details_Screen> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                const Icon(
-                  Icons.arrow_back_ios,
-                  size: 30,
-                  color: Color.fromRGBO(13, 13, 14, 1),
+                GestureDetector(
+                  onTap: () {
+                    Navigator.of(context).pop();
+                  },
+                  child: const Icon(
+                    Icons.arrow_back_ios,
+                    size: 30,
+                    color: Color.fromRGBO(13, 13, 14, 1),
+                  ),
                 ),
                 Text(
                   "Details",

@@ -14,8 +14,8 @@ class _Home_ScreenState extends State<Home_Screen> {
   final List<String> imagePaths = [
     "assets/Rectangle 980 (1).png",
     "assets/Rectangle 981 (1).png",
+    " assets/Rectangle 981.png",
     "assets/Rectangle 981.png",
-    "assets/Rectangle 980.png",
   ];
   int _selectedIndex = 0;
   void _onItemTapped(int index) {
@@ -131,7 +131,7 @@ class _Home_ScreenState extends State<Home_Screen> {
                 crossAxisCount: 2,
                 crossAxisSpacing: 10,
                 mainAxisSpacing: 10,
-                itemCount: 4,
+                itemCount: 6,
                 itemBuilder: (context, index) {
                   return GestureDetector(
                     onTap: () {
