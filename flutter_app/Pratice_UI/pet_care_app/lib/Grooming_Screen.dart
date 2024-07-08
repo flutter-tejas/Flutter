@@ -13,7 +13,7 @@ class _Grooming_screenState extends State<Grooming_screen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(245, 245, 247, 1),
+      backgroundColor: const Color.fromRGBO(245, 245, 247, 1),
       body: Column(
         children: [
           Padding(
@@ -26,7 +26,7 @@ class _Grooming_screenState extends State<Grooming_screen> {
                   width: 26,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8),
-                    color: Color.fromRGBO(245, 146, 69, 1),
+                    color: const Color.fromRGBO(245, 146, 69, 1),
                     boxShadow: const [
                       BoxShadow(
                         offset: Offset(0, 8),
@@ -41,17 +41,17 @@ class _Grooming_screenState extends State<Grooming_screen> {
                       onTap: () {
                         Navigator.of(context)
                             .push(MaterialPageRoute(builder: (context) {
-                          return Dashboard();
+                          return const Dashboard();
                         }));
                       },
-                      child: Icon(
+                      child: const Icon(
                         Icons.arrow_back_ios_new,
                         color: Color.fromRGBO(255, 255, 255, 1),
                       ),
                     ),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 120,
                 ),
                 Text(
@@ -72,9 +72,9 @@ class _Grooming_screenState extends State<Grooming_screen> {
               height: 98,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(16),
-                color: Color.fromRGBO(245, 146, 69, 1),
-                boxShadow: [
-                  BoxShadow(
+                color: const Color.fromRGBO(245, 146, 69, 1),
+                boxShadow: const [
+                 BoxShadow(
                     offset: Offset(0, 8),
                     blurRadius: 16,
                     spreadRadius: -4,
@@ -109,7 +109,7 @@ class _Grooming_screenState extends State<Grooming_screen> {
                         ),
                       ],
                     ),
-                    Spacer(),
+                    const Spacer(),
                     Container(
                       width: 100,
                       height: 100,
@@ -133,10 +133,10 @@ class _Grooming_screenState extends State<Grooming_screen> {
             ),
           ),
           Padding(
-            padding: EdgeInsets.only(top: 8, bottom: 8, left: 24, right: 24),
+            padding: const EdgeInsets.only(top: 8, bottom: 8, left: 24, right: 24),
             child: TextField(
               decoration: InputDecoration(
-                suffixIcon: Icon(
+                suffixIcon: const Icon(
                   Icons.search,
                   color: Color.fromRGBO(245, 146, 69, 1),
                 ),
@@ -169,7 +169,7 @@ class _Grooming_screenState extends State<Grooming_screen> {
             ),
           ),
           Padding(
-            padding: EdgeInsets.only(top: 8, left: 24, right: 24),
+            padding: const EdgeInsets.only(top: 8, left: 24, right: 24),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -178,7 +178,7 @@ class _Grooming_screenState extends State<Grooming_screen> {
                   style: GoogleFonts.poppins(
                     fontWeight: FontWeight.w500,
                     fontSize: 14,
-                    color: Color.fromRGBO(0, 0, 0, 1),
+                    color: const Color.fromRGBO(0, 0, 0, 1),
                   ),
                 ),
                 Text(
@@ -186,7 +186,7 @@ class _Grooming_screenState extends State<Grooming_screen> {
                   style: GoogleFonts.poppins(
                     fontWeight: FontWeight.w400,
                     fontSize: 12,
-                    color: Color.fromRGBO(194, 195, 204, 1),
+                    color: const Color.fromRGBO(194, 195, 204, 1),
                   ),
                 ),
               ],
@@ -196,7 +196,7 @@ class _Grooming_screenState extends State<Grooming_screen> {
             child: Padding(
               padding: const EdgeInsets.only(left: 24, right: 24),
               child: GridView(
-                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2,
                   crossAxisSpacing: 20,
                   mainAxisSpacing: 20,
@@ -223,7 +223,7 @@ class _Grooming_screenState extends State<Grooming_screen> {
                           style: GoogleFonts.poppins(
                             fontSize: 12,
                             fontWeight: FontWeight.w500,
-                            color: Color.fromRGBO(49, 29, 14, 1),
+                            color: const Color.fromRGBO(49, 29, 14, 1),
                           ),
                         )
                       ],
@@ -250,7 +250,7 @@ class _Grooming_screenState extends State<Grooming_screen> {
                           style: GoogleFonts.poppins(
                             fontSize: 12,
                             fontWeight: FontWeight.w500,
-                            color: Color.fromRGBO(49, 29, 14, 1),
+                            color: const Color.fromRGBO(49, 29, 14, 1),
                           ),
                         )
                       ],
@@ -277,7 +277,7 @@ class _Grooming_screenState extends State<Grooming_screen> {
                           style: GoogleFonts.poppins(
                             fontSize: 12,
                             fontWeight: FontWeight.w500,
-                            color: Color.fromRGBO(49, 29, 14, 1),
+                            color: const Color.fromRGBO(49, 29, 14, 1),
                           ),
                         )
                       ],
@@ -304,7 +304,7 @@ class _Grooming_screenState extends State<Grooming_screen> {
                           style: GoogleFonts.poppins(
                             fontSize: 12,
                             fontWeight: FontWeight.w500,
-                            color: Color.fromRGBO(49, 29, 14, 1),
+                            color: const Color.fromRGBO(49, 29, 14, 1),
                           ),
                         )
                       ],
@@ -331,7 +331,7 @@ class _Grooming_screenState extends State<Grooming_screen> {
                           style: GoogleFonts.poppins(
                             fontSize: 12,
                             fontWeight: FontWeight.w500,
-                            color: Color.fromRGBO(49, 29, 14, 1),
+                            color: const Color.fromRGBO(49, 29, 14, 1),
                           ),
                         )
                       ],
@@ -358,7 +358,7 @@ class _Grooming_screenState extends State<Grooming_screen> {
                           style: GoogleFonts.poppins(
                             fontSize: 12,
                             fontWeight: FontWeight.w500,
-                            color: Color.fromRGBO(49, 29, 14, 1),
+                            color: const Color.fromRGBO(49, 29, 14, 1),
                           ),
                         )
                       ],

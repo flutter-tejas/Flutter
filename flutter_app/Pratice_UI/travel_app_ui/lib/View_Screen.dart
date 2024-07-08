@@ -161,7 +161,7 @@ class _View_ScreenState extends State<View_Screen> {
               width: 335,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
-                color: Color.fromRGBO(62, 62, 62, 1),
+                color: const Color.fromRGBO(62, 62, 62, 1),
               ),
               child: Padding(
                 padding: const EdgeInsets.only(
@@ -180,8 +180,8 @@ class _View_ScreenState extends State<View_Screen> {
                             color: const Color.fromRGBO(255, 255, 255, 1),
                           ),
                         ),
-                        Spacer(),
-                        Icon(
+                        const Spacer(),
+                        const Icon(
                           Icons.star,
                           size: 15,
                           color: Color.fromRGBO(255, 211, 54, 1),
@@ -191,14 +191,14 @@ class _View_ScreenState extends State<View_Screen> {
                           style: GoogleFonts.poppins(
                             fontSize: 16,
                             fontWeight: FontWeight.w400,
-                            color: Color.fromRGBO(255, 255, 255, 1),
+                            color: const Color.fromRGBO(255, 255, 255, 1),
                           ),
                         ),
                       ],
                     ),
                     Row(
                       children: [
-                        Icon(
+                        const Icon(
                           Icons.location_on_outlined,
                           size: 13.33,
                           color: Color.fromRGBO(255, 255, 255, 1),
@@ -208,16 +208,16 @@ class _View_ScreenState extends State<View_Screen> {
                           style: GoogleFonts.poppins(
                             fontSize: 13,
                             fontWeight: FontWeight.w400,
-                            color: Color.fromRGBO(255, 255, 255, 1),
+                            color: const Color.fromRGBO(255, 255, 255, 1),
                           ),
                         ),
-                        Spacer(),
+                        const Spacer(),
                         Image.asset("assets/Group 12 (1).png")
                       ],
                     ),
                     Row(
                       children: [
-                        Icon(
+                        const Icon(
                           Icons.timer_sharp,
                           size: 13.33,
                           color: Color.fromRGBO(255, 255, 255, 1),
@@ -227,7 +227,7 @@ class _View_ScreenState extends State<View_Screen> {
                           style: GoogleFonts.poppins(
                             fontSize: 13,
                             fontWeight: FontWeight.w400,
-                            color: Color.fromRGBO(255, 255, 255, 1),
+                            color: const Color.fromRGBO(255, 255, 255, 1),
                           ),
                         ),
                       ],
@@ -248,8 +248,9 @@ class _View_ScreenState extends State<View_Screen> {
                             );
                           },
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: Color.fromRGBO(13, 110, 253, 1),
-                            padding: EdgeInsets.symmetric(
+                            backgroundColor:
+                                const Color.fromRGBO(13, 110, 253, 1),
+                            padding: const EdgeInsets.symmetric(
                                 horizontal: 50, vertical: 20),
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(30.0),
@@ -260,7 +261,7 @@ class _View_ScreenState extends State<View_Screen> {
                             style: GoogleFonts.poppins(
                               fontSize: 16,
                               fontWeight: FontWeight.w600,
-                              color: Color.fromRGBO(255, 255, 255, 1),
+                              color: const Color.fromRGBO(255, 255, 255, 1),
                             ),
                           ),
                         ),

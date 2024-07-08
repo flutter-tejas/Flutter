@@ -86,7 +86,7 @@ class _Details_ScreenState extends State<Details_Screen> {
             child: Container(
               height: 461,
               width: MediaQuery.of(context).size.width,
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 borderRadius: BorderRadius.only(
                   topLeft: Radius.elliptical(1000, 200),
                   topRight: Radius.elliptical(1000, 200),
@@ -110,7 +110,7 @@ class _Details_ScreenState extends State<Details_Screen> {
                             width: 36,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(16),
-                              color: Color.fromRGBO(125, 132, 141, 1),
+                              color: const Color.fromRGBO(125, 132, 141, 1),
                             ),
                           ),
                         ),
@@ -145,7 +145,7 @@ class _Details_ScreenState extends State<Details_Screen> {
                     ),
                     Row(
                       children: [
-                        Icon(
+                        const Icon(
                           Icons.location_on_outlined,
                           size: 13.33,
                           color: Color.fromRGBO(125, 132, 141, 1),
@@ -158,18 +158,18 @@ class _Details_ScreenState extends State<Details_Screen> {
                             color: const Color.fromRGBO(125, 132, 141, 1),
                           ),
                         ),
-                        Icon(
+                        const Icon(
                           Icons.star,
                           size: 11.64,
                           color: Color.fromRGBO(255, 211, 54, 1),
                         ),
-                        Spacer(),
+                        const Spacer(),
                         Text(
                           "4.9",
                           style: GoogleFonts.poppins(
                             fontSize: 16,
                             fontWeight: FontWeight.w400,
-                            color: Color.fromRGBO(27, 30, 40, 1),
+                            color: const Color.fromRGBO(27, 30, 40, 1),
                           ),
                         ),
                         Text(
@@ -180,13 +180,13 @@ class _Details_ScreenState extends State<Details_Screen> {
                             color: const Color.fromRGBO(125, 132, 141, 1),
                           ),
                         ),
-                        Spacer(),
+                        const Spacer(),
                         Text(
                           "\$59/",
                           style: GoogleFonts.poppins(
                             fontSize: 16,
                             fontWeight: FontWeight.w400,
-                            color: Color.fromRGBO(13, 110, 253, 1),
+                            color: const Color.fromRGBO(13, 110, 253, 1),
                           ),
                         ),
                         Text(
@@ -222,10 +222,10 @@ class _Details_ScreenState extends State<Details_Screen> {
                         style: GoogleFonts.poppins(
                           fontSize: 13,
                           fontWeight: FontWeight.w400,
-                          color: Color.fromRGBO(125, 132, 141, 1),
+                          color: const Color.fromRGBO(125, 132, 141, 1),
                         ),
                         children: <InlineSpan>[
-                          TextSpan(
+                          const TextSpan(
                               text:
                                   'You will get a complete travel package on the beaches. Packages in the form of airline tickets, recommended Hotel rooms, Have you ever been on holiday to the Greek ETC...  '),
                           WidgetSpan(
@@ -237,7 +237,7 @@ class _Details_ScreenState extends State<Details_Screen> {
                                     style: GoogleFonts.poppins(
                                       fontSize: 13,
                                       fontWeight: FontWeight.w400,
-                                      color: Color.fromRGBO(255, 112, 41, 1),
+                                      color: const Color.fromRGBO(255, 112, 41, 1),
                                     ),
                                   ),
                                 ]),
@@ -261,8 +261,8 @@ class _Details_ScreenState extends State<Details_Screen> {
                             );
                           },
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: Color.fromRGBO(13, 110, 253, 1),
-                            padding: EdgeInsets.symmetric(
+                            backgroundColor: const Color.fromRGBO(13, 110, 253, 1),
+                            padding: const EdgeInsets.symmetric(
                                 horizontal: 50, vertical: 20),
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(30.0),
@@ -273,7 +273,7 @@ class _Details_ScreenState extends State<Details_Screen> {
                             style: GoogleFonts.poppins(
                               fontSize: 16,
                               fontWeight: FontWeight.w600,
-                              color: Color.fromRGBO(255, 255, 255, 1),
+                              color: const Color.fromRGBO(255, 255, 255, 1),
                             ),
                           ),
                         ),

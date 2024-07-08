@@ -1,7 +1,7 @@
 import 'package:bicycle_app_ui/Screen2.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:slide_to_act/slide_to_act.dart';
+
 
 void main() {
   runApp(const MainApp());
@@ -32,13 +32,13 @@ class _Screen1State extends State<Screen1> {
       body: Stack(
         children: [
           Container(
-            decoration: BoxDecoration(
-              gradient: LinearGradient(
+            decoration: const  BoxDecoration(
+              gradient:  LinearGradient(
                 begin: Alignment.center,
                 end: Alignment.bottomRight,
                 stops: [0.1, 0.0],
                 colors: [
-                  const Color.fromRGBO(36, 44, 59, 1),
+                   Color.fromRGBO(36, 44, 59, 1),
                   Color.fromRGBO(75, 76, 237, 1),
                 ],
               ),
@@ -59,7 +59,7 @@ class _Screen1State extends State<Screen1> {
                 width: 315,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(38),
-                  color: Color.fromRGBO(36, 44, 59, 1),
+                  color: const Color.fromRGBO(36, 44, 59, 1),
                 ),
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
@@ -92,7 +92,7 @@ class _Screen1State extends State<Screen1> {
                           ),
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 30,
                       ),
                       Text(
@@ -100,7 +100,7 @@ class _Screen1State extends State<Screen1> {
                         style: GoogleFonts.poppins(
                             fontSize: 25,
                             fontWeight: FontWeight.w500,
-                            color: Color.fromRGBO(255, 255, 255, 1)),
+                            color: const Color.fromRGBO(255, 255, 255, 1)),
                       ),
                     ],
                   ),
@@ -117,7 +117,7 @@ class _Screen1State extends State<Screen1> {
                 style: GoogleFonts.allertaStencil(
                   fontSize: 150,
                   fontWeight: FontWeight.w400,
-                  color: Color.fromRGBO(255, 255, 255, 0.2),
+                  color: const Color.fromRGBO(255, 255, 255, 0.2),
                 ),
               ),
             ),

@@ -1,4 +1,4 @@
-import 'dart:ffi';
+
 
 import 'package:bicycle_app_ui/Screen4.dart';
 import 'package:flutter/material.dart';
@@ -65,10 +65,10 @@ class _Screen3State extends State<Screen3> {
                   width: 10,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(100),
-                    color: Color.fromRGBO(0, 0, 0, 1),
+                    color: const Color.fromRGBO(0, 0, 0, 1),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 5,
                 ),
                 Container(
@@ -76,10 +76,10 @@ class _Screen3State extends State<Screen3> {
                   width: 10,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(100),
-                    color: Color.fromRGBO(255, 255, 255, 1),
+                    color: const Color.fromRGBO(255, 255, 255, 1),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 5,
                 ),
                 Container(
@@ -87,7 +87,7 @@ class _Screen3State extends State<Screen3> {
                   width: 10,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(100),
-                    color: Color.fromRGBO(255, 255, 255, 1),
+                    color: const Color.fromRGBO(255, 255, 255, 1),
                   ),
                 )
               ],
@@ -257,13 +257,13 @@ class _Screen3State extends State<Screen3> {
                       }));
                     },
                     child: Container(
-                      alignment: Alignment(0, 0),
+                      alignment: const Alignment(0, 0),
                       height: 50,
                       width: 187,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
                         border: Border.all(
-                          color: Color.fromRGBO(255, 251, 251, 0.5),
+                          color: const Color.fromRGBO(255, 251, 251, 0.5),
                         ),
                         gradient: const LinearGradient(
                           colors: [

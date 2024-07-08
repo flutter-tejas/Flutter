@@ -471,7 +471,7 @@ class _ExploreScreenState extends State<ExploreScreen> {
                   ),
                 ),
                 const SizedBox(
-                  width: 20,
+                  width: 15,
                 ),
                 Container(
                   padding: const EdgeInsets.only(left: 10, bottom: 20),
@@ -512,7 +512,7 @@ class _ExploreScreenState extends State<ExploreScreen> {
                   ),
                 ),
                 const SizedBox(
-                  width: 20,
+                  width: 15,
                 ),
                 Container(
                   padding: const EdgeInsets.only(left: 10, bottom: 20),
@@ -566,7 +566,7 @@ class _ExploreScreenState extends State<ExploreScreen> {
               ),
             ),
             SizedBox(
-              height: 15,
+              height: 10,
             ),
             SingleChildScrollView(
               scrollDirection: Axis.horizontal,

@@ -53,7 +53,7 @@ class _Chat_ScreenState extends State<Chat_Screen> {
                         style: GoogleFonts.poppins(
                           fontWeight: FontWeight.w500,
                           fontSize: 18,
-                          color: Color.fromRGBO(27, 30, 40, 1),
+                          color: const Color.fromRGBO(27, 30, 40, 1),
                         ),
                       ),
                       Text(
@@ -89,7 +89,7 @@ class _Chat_ScreenState extends State<Chat_Screen> {
                 width: 59,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(8),
-                  color: Color.fromRGBO(255, 255, 255, 1),
+                  color: const Color.fromRGBO(255, 255, 255, 1),
                 ),
                 child: Center(
                   child: Text(
@@ -108,7 +108,7 @@ class _Chat_ScreenState extends State<Chat_Screen> {
               child: Container(
                 height: 38,
                 width: 122,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   borderRadius: BorderRadius.only(
                     topLeft: Radius.circular(10),
                     topRight: Radius.circular(10),
@@ -128,7 +128,7 @@ class _Chat_ScreenState extends State<Chat_Screen> {
                           color: const Color.fromRGBO(27, 30, 40, 1),
                         ),
                       ),
-                      Spacer(),
+                      const Spacer(),
                       Text(
                         "9:24",
                         style: GoogleFonts.poppins(
@@ -137,7 +137,7 @@ class _Chat_ScreenState extends State<Chat_Screen> {
                           color: const Color.fromRGBO(125, 132, 141, 1),
                         ),
                       ),
-                      Icon(
+                      const Icon(
                         Icons.done_all,
                         size: 15,
                         color: Color.fromRGBO(25, 176, 0, 1),
@@ -147,7 +147,7 @@ class _Chat_ScreenState extends State<Chat_Screen> {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
             Align(
@@ -155,7 +155,7 @@ class _Chat_ScreenState extends State<Chat_Screen> {
               child: Container(
                 height: 114,
                 width: 253,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   borderRadius: BorderRadius.only(
                     topLeft: Radius.circular(10),
                     topRight: Radius.circular(10),
@@ -178,7 +178,7 @@ class _Chat_ScreenState extends State<Chat_Screen> {
                           ),
                         ),
                       ),
-                      Spacer(),
+                      const Spacer(),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.end,
                         children: [
@@ -190,10 +190,10 @@ class _Chat_ScreenState extends State<Chat_Screen> {
                               color: const Color.fromRGBO(125, 132, 141, 1),
                             ),
                           ),
-                          Icon(
+                          const Icon(
                             Icons.done_all,
                             size: 15,
-                            color: const Color.fromRGBO(125, 132, 141, 1),
+                            color: Color.fromRGBO(125, 132, 141, 1),
                           )
                         ],
                       ),
@@ -202,7 +202,7 @@ class _Chat_ScreenState extends State<Chat_Screen> {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             Row(
@@ -215,7 +215,7 @@ class _Chat_ScreenState extends State<Chat_Screen> {
                     Image.asset("assets/Group 185.png"),
                   ],
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 10,
                 ),
                 Column(
@@ -224,7 +224,7 @@ class _Chat_ScreenState extends State<Chat_Screen> {
                     Container(
                       height: 38,
                       width: 122,
-                      decoration: BoxDecoration(
+                      decoration: const BoxDecoration(
                         borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(10),
                             topRight: Radius.circular(10),
@@ -243,7 +243,7 @@ class _Chat_ScreenState extends State<Chat_Screen> {
                                 color: const Color.fromRGBO(27, 30, 40, 1),
                               ),
                             ),
-                            Spacer(),
+                            const Spacer(),
                             Text(
                               "9:34",
                               style: GoogleFonts.poppins(
@@ -252,7 +252,7 @@ class _Chat_ScreenState extends State<Chat_Screen> {
                                 color: const Color.fromRGBO(125, 132, 141, 1),
                               ),
                             ),
-                            Icon(
+                            const Icon(
                               Icons.done_all,
                               size: 15,
                               color: Color.fromRGBO(25, 176, 0, 1),
@@ -261,13 +261,13 @@ class _Chat_ScreenState extends State<Chat_Screen> {
                         ),
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 10,
                     ),
                     Container(
                       height: 40,
                       width: 258,
-                      decoration: BoxDecoration(
+                      decoration: const BoxDecoration(
                         borderRadius: BorderRadius.only(
                             topRight: Radius.circular(10),
                             bottomLeft: Radius.circular(10),
@@ -286,7 +286,7 @@ class _Chat_ScreenState extends State<Chat_Screen> {
                                 color: const Color.fromRGBO(27, 30, 40, 1),
                               ),
                             ),
-                            Spacer(),
+                            const Spacer(),
                             Text(
                               "9:35",
                               style: GoogleFonts.poppins(
@@ -295,7 +295,7 @@ class _Chat_ScreenState extends State<Chat_Screen> {
                                 color: const Color.fromRGBO(125, 132, 141, 1),
                               ),
                             ),
-                            Icon(
+                            const Icon(
                               Icons.done_all,
                               size: 15,
                               color: Color.fromRGBO(25, 176, 0, 1),
@@ -318,19 +318,19 @@ class _Chat_ScreenState extends State<Chat_Screen> {
                     Image.asset("assets/Group 186.png"),
                   ],
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 10,
                 ),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    SizedBox(
+                    const SizedBox(
                       height: 20,
                     ),
                     Container(
                       height: 78,
                       width: 258,
-                      decoration: BoxDecoration(
+                      decoration: const BoxDecoration(
                         borderRadius: BorderRadius.only(
                             topRight: Radius.circular(10),
                             bottomLeft: Radius.circular(10),
@@ -364,7 +364,7 @@ class _Chat_ScreenState extends State<Chat_Screen> {
                                         const Color.fromRGBO(125, 132, 141, 1),
                                   ),
                                 ),
-                                Icon(
+                                const Icon(
                                   Icons.done_all,
                                   size: 15,
                                   color: Color.fromRGBO(25, 176, 0, 1),
@@ -379,7 +379,7 @@ class _Chat_ScreenState extends State<Chat_Screen> {
                 )
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             Align(
@@ -387,7 +387,7 @@ class _Chat_ScreenState extends State<Chat_Screen> {
               child: Container(
                 height: 40,
                 width: 200,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   borderRadius: BorderRadius.only(
                     topLeft: Radius.circular(10),
                     topRight: Radius.circular(10),
@@ -407,7 +407,7 @@ class _Chat_ScreenState extends State<Chat_Screen> {
                           color: const Color.fromRGBO(27, 30, 40, 1),
                         ),
                       ),
-                      Spacer(),
+                      const Spacer(),
                       Text(
                         "9:39",
                         style: GoogleFonts.poppins(
@@ -416,17 +416,17 @@ class _Chat_ScreenState extends State<Chat_Screen> {
                           color: const Color.fromRGBO(125, 132, 141, 1),
                         ),
                       ),
-                      Icon(
+                      const Icon(
                         Icons.done_all,
                         size: 15,
-                        color: const Color.fromRGBO(125, 132, 141, 1),
+                        color: Color.fromRGBO(125, 132, 141, 1),
                       )
                     ],
                   ),
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 60,
             ),
             Row(
@@ -452,15 +452,15 @@ class _Chat_ScreenState extends State<Chat_Screen> {
                     ),
                   ),
                 ),
-                Spacer(),
+                const Spacer(),
                 Container(
                   height: 48,
                   width: 48,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     shape: BoxShape.circle,
                     color: Color.fromRGBO(13, 110, 253, 1),
                   ),
-                  child: Icon(
+                  child: const Icon(
                     Icons.mic_none_outlined,
                     size: 30,
                     color: Color.fromRGBO(255, 255, 255, 1),

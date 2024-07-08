@@ -40,14 +40,17 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Stack(
         clipBehavior: Clip.none,
         children: [
-          Image.network(
-            "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w300/2023/10/free-images.jpg",
-            height: 200,
-            width: 200,
-            fit: BoxFit.cover,
+          Positioned(
+            top: 200,
+            child: Image.network(
+              "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w300/2023/10/free-images.jpg",
+              height: 200,
+              width: 200,
+              fit: BoxFit.cover,
+            ),
           ),
           const Positioned(
-            top: 200,
+            top: 400,
             child: Text(
               "Incubators",
               style: TextStyle(

@@ -14,7 +14,7 @@ class _Calendar_PageState extends State<Calendar_Page> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(247, 247, 249, 1),
+      backgroundColor: const Color.fromRGBO(247, 247, 249, 1),
       body: Padding(
         padding: const EdgeInsets.only(left: 20, right: 20),
         child: Column(
@@ -31,19 +31,19 @@ class _Calendar_PageState extends State<Calendar_Page> {
                       color: const Color.fromRGBO(27, 30, 40, 1),
                     ),
                   ),
-                  Spacer(),
+                  const Spacer(),
                   Container(
                       height: 44,
                       width: 44,
-                      decoration: BoxDecoration(
+                      decoration: const BoxDecoration(
                         shape: BoxShape.circle,
                         color: Color.fromRGBO(255, 255, 255, 1),
                       ),
-                      child: Icon(Icons.notifications_outlined)),
+                      child: const Icon(Icons.notifications_outlined)),
                 ],
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 30,
             ),
             Container(
@@ -51,7 +51,7 @@ class _Calendar_PageState extends State<Calendar_Page> {
               width: 400,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(16),
-                color: Color.fromRGBO(255, 255, 255, 1),
+                color: const Color.fromRGBO(255, 255, 255, 1),
                 boxShadow: const [
                   BoxShadow(
                     offset: Offset(0, 6),
@@ -61,7 +61,7 @@ class _Calendar_PageState extends State<Calendar_Page> {
                 ],
               ),
               child: TableCalendar(
-                  headerStyle: HeaderStyle(
+                  headerStyle: const HeaderStyle(
                     formatButtonVisible: false,
                   ),
                   calendarFormat: CalendarFormat.week,
@@ -69,7 +69,7 @@ class _Calendar_PageState extends State<Calendar_Page> {
                   firstDay: DateTime(2000),
                   lastDay: DateTime(2030)),
             ),
-            SizedBox(
+            const SizedBox(
               height: 40,
             ),
             Row(
@@ -101,7 +101,7 @@ class _Calendar_PageState extends State<Calendar_Page> {
                     width: 335,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(16),
-                      color: Color.fromRGBO(255, 255, 255, 1),
+                      color: const Color.fromRGBO(255, 255, 255, 1),
                       boxShadow: const [
                         BoxShadow(
                           offset: Offset(0, 6),
@@ -109,7 +109,7 @@ class _Calendar_PageState extends State<Calendar_Page> {
                           color: Color.fromRGBO(180, 188, 201, 0.12),
                         ),
                       ],
-                      image: DecorationImage(
+                      image: const DecorationImage(
                         alignment: Alignment.centerLeft,
                         image: AssetImage(
                           "assets/Rectangle 29 (2).png",
@@ -120,7 +120,7 @@ class _Calendar_PageState extends State<Calendar_Page> {
                       padding: const EdgeInsets.all(8.0),
                       child: Row(
                         children: [
-                          SizedBox(
+                          const SizedBox(
                             width: 100,
                           ),
                           Column(
@@ -129,10 +129,10 @@ class _Calendar_PageState extends State<Calendar_Page> {
                             children: [
                               Row(
                                 children: [
-                                  Icon(
+                                  const Icon(
                                     Icons.calendar_month_outlined,
                                     color:
-                                        const Color.fromRGBO(125, 132, 141, 1),
+                                        Color.fromRGBO(125, 132, 141, 1),
                                   ),
                                   Text(
                                     " 26 Januray 2022",
@@ -155,10 +155,10 @@ class _Calendar_PageState extends State<Calendar_Page> {
                               ),
                               Row(
                                 children: [
-                                  Icon(
+                                  const Icon(
                                     Icons.location_on_outlined,
                                     color:
-                                        const Color.fromRGBO(125, 132, 141, 1),
+                                        Color.fromRGBO(125, 132, 141, 1),
                                   ),
                                   Text(
                                     "Tekergat, Sunamgnj",
@@ -173,16 +173,16 @@ class _Calendar_PageState extends State<Calendar_Page> {
                               ),
                             ],
                           ),
-                          Spacer(),
-                          Icon(
+                          const Spacer(),
+                          const Icon(
                             Icons.chevron_right_outlined,
-                            color: const Color.fromRGBO(125, 132, 141, 1),
+                            color: Color.fromRGBO(125, 132, 141, 1),
                           )
                         ],
                       ),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 20,
                   ),
                   Container(
@@ -190,7 +190,7 @@ class _Calendar_PageState extends State<Calendar_Page> {
                     width: 335,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(16),
-                      color: Color.fromRGBO(255, 255, 255, 1),
+                      color: const Color.fromRGBO(255, 255, 255, 1),
                       boxShadow: const [
                         BoxShadow(
                           offset: Offset(0, 6),
@@ -198,7 +198,7 @@ class _Calendar_PageState extends State<Calendar_Page> {
                           color: Color.fromRGBO(180, 188, 201, 0.12),
                         ),
                       ],
-                      image: DecorationImage(
+                      image: const DecorationImage(
                         alignment: Alignment.centerLeft,
                         image: AssetImage(
                           "assets/Rectangle 29.png",
@@ -209,7 +209,7 @@ class _Calendar_PageState extends State<Calendar_Page> {
                       padding: const EdgeInsets.all(8.0),
                       child: Row(
                         children: [
-                          SizedBox(
+                          const SizedBox(
                             width: 100,
                           ),
                           Column(
@@ -218,10 +218,10 @@ class _Calendar_PageState extends State<Calendar_Page> {
                             children: [
                               Row(
                                 children: [
-                                  Icon(
+                                  const Icon(
                                     Icons.calendar_month_outlined,
                                     color:
-                                        const Color.fromRGBO(125, 132, 141, 1),
+                                        Color.fromRGBO(125, 132, 141, 1),
                                   ),
                                   Text(
                                     " 26 Januray 2022",
@@ -244,10 +244,10 @@ class _Calendar_PageState extends State<Calendar_Page> {
                               ),
                               Row(
                                 children: [
-                                  Icon(
+                                  const Icon(
                                     Icons.location_on_outlined,
                                     color:
-                                        const Color.fromRGBO(125, 132, 141, 1),
+                                        Color.fromRGBO(125, 132, 141, 1),
                                   ),
                                   Text(
                                     "Zeero Point, Sylhet",
@@ -262,16 +262,16 @@ class _Calendar_PageState extends State<Calendar_Page> {
                               ),
                             ],
                           ),
-                          Spacer(),
-                          Icon(
+                          const Spacer(),
+                          const Icon(
                             Icons.chevron_right_outlined,
-                            color: const Color.fromRGBO(125, 132, 141, 1),
+                            color: Color.fromRGBO(125, 132, 141, 1),
                           )
                         ],
                       ),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 20,
                   ),
                   Container(
@@ -279,7 +279,7 @@ class _Calendar_PageState extends State<Calendar_Page> {
                     width: 335,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(16),
-                      color: Color.fromRGBO(255, 255, 255, 1),
+                      color: const Color.fromRGBO(255, 255, 255, 1),
                       boxShadow: const [
                         BoxShadow(
                           offset: Offset(0, 6),
@@ -287,7 +287,7 @@ class _Calendar_PageState extends State<Calendar_Page> {
                           color: Color.fromRGBO(180, 188, 201, 0.12),
                         ),
                       ],
-                      image: DecorationImage(
+                      image: const DecorationImage(
                         alignment: Alignment.centerLeft,
                         image: AssetImage(
                           "assets/Rectangle 29 (1).png",
@@ -298,7 +298,7 @@ class _Calendar_PageState extends State<Calendar_Page> {
                       padding: const EdgeInsets.all(8.0),
                       child: Row(
                         children: [
-                          SizedBox(
+                          const SizedBox(
                             width: 100,
                           ),
                           Column(
@@ -307,10 +307,10 @@ class _Calendar_PageState extends State<Calendar_Page> {
                             children: [
                               Row(
                                 children: [
-                                  Icon(
+                                  const Icon(
                                     Icons.calendar_month_outlined,
                                     color:
-                                        const Color.fromRGBO(125, 132, 141, 1),
+                                        Color.fromRGBO(125, 132, 141, 1),
                                   ),
                                   Text(
                                     " 26 Januray 2022",
@@ -333,10 +333,10 @@ class _Calendar_PageState extends State<Calendar_Page> {
                               ),
                               Row(
                                 children: [
-                                  Icon(
+                                  const Icon(
                                     Icons.location_on_outlined,
                                     color:
-                                        const Color.fromRGBO(125, 132, 141, 1),
+                                        Color.fromRGBO(125, 132, 141, 1),
                                   ),
                                   Text(
                                     "Darma, Kuningan",
@@ -351,10 +351,10 @@ class _Calendar_PageState extends State<Calendar_Page> {
                               ),
                             ],
                           ),
-                          Spacer(),
-                          Icon(
+                          const Spacer(),
+                          const Icon(
                             Icons.chevron_right_outlined,
-                            color: const Color.fromRGBO(125, 132, 141, 1),
+                            color: Color.fromRGBO(125, 132, 141, 1),
                           )
                         ],
                       ),

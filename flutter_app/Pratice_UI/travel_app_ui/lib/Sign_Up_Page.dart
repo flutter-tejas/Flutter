@@ -71,7 +71,7 @@ class _SignUpPageState extends State<SignUpPage> {
               TextField(
                 decoration: InputDecoration(
                   semanticCounterText: "*",
-                  suffixIcon: Icon(Icons.remove_red_eye),
+                  suffixIcon: const Icon(Icons.remove_red_eye),
                   border: InputBorder.none,
                   disabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(14),
@@ -108,9 +108,9 @@ class _SignUpPageState extends State<SignUpPage> {
                       );
                     },
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: Color.fromRGBO(13, 110, 253, 1),
+                      backgroundColor: const Color.fromRGBO(13, 110, 253, 1),
                       padding:
-                          EdgeInsets.symmetric(horizontal: 50, vertical: 20),
+                          const EdgeInsets.symmetric(horizontal: 50, vertical: 20),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(30.0),
                       ),
@@ -120,7 +120,7 @@ class _SignUpPageState extends State<SignUpPage> {
                       style: GoogleFonts.poppins(
                         fontSize: 16,
                         fontWeight: FontWeight.w600,
-                        color: Color.fromRGBO(255, 255, 255, 1),
+                        color: const Color.fromRGBO(255, 255, 255, 1),
                       ),
                     ),
                   ),
@@ -131,18 +131,18 @@ class _SignUpPageState extends State<SignUpPage> {
                 style: GoogleFonts.poppins(
                   fontSize: 14,
                   fontWeight: FontWeight.w400,
-                  color: Color.fromRGBO(27, 30, 40, 1),
+                  color: const Color.fromRGBO(27, 30, 40, 1),
                 ),
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Image.asset("assets/Group 332.png"),
-                  SizedBox(
+                  const SizedBox(
                     width: 30,
                   ),
                   Image.asset("assets/Group 333.png"),
-                  SizedBox(
+                  const SizedBox(
                     width: 30,
                   ),
                   Image.asset("assets/Group 334.png"),

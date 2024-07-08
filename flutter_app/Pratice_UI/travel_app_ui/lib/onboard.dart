@@ -12,7 +12,7 @@ class OnBoard extends StatefulWidget {
 }
 
 class _OnBoardState extends State<OnBoard> {
-  PageController _controller = PageController();
+  final PageController _controller = PageController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,14 +20,14 @@ class _OnBoardState extends State<OnBoard> {
         children: [
           PageView(
             controller: _controller,
-            children: [
-              IntroPage1(),
-              IntroPage2(),
+            children: const [
+               IntroPage1(),
+               IntroPage2(),
               IntroPage3(),
             ],
           ),
           Container(
-            alignment: Alignment(0, 0.7),
+            alignment: const Alignment(0, 0.7),
             child: SmoothPageIndicator(controller: _controller, count: 3),
           ),
         ],

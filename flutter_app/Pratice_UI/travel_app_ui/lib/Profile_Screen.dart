@@ -42,7 +42,7 @@ class _Profile_PageState extends State<Profile_Page> {
               ),
               CircleAvatar(
                 maxRadius: 60,
-                backgroundColor: Color.fromRGBO(255, 223, 230, 1),
+                backgroundColor: const Color.fromRGBO(255, 223, 230, 1),
                 child: Image.asset(
                   "assets/Mask group (6).png",
                 ),
@@ -100,7 +100,7 @@ class _Profile_PageState extends State<Profile_Page> {
                                 fontSize: 13,
                                 fontWeight: FontWeight.w500,
                                 letterSpacing: 0.5,
-                                color: Color.fromRGBO(27, 30, 40, 1),
+                                color: const Color.fromRGBO(27, 30, 40, 1),
                               ),
                             ),
                             Text(
@@ -109,7 +109,7 @@ class _Profile_PageState extends State<Profile_Page> {
                                 fontSize: 16,
                                 fontWeight: FontWeight.w500,
                                 letterSpacing: 0.5,
-                                color: Color.fromRGBO(13, 110, 253, 1),
+                                color: const Color.fromRGBO(13, 110, 253, 1),
                               ),
                             ),
                           ],
@@ -126,7 +126,7 @@ class _Profile_PageState extends State<Profile_Page> {
                                 fontSize: 13,
                                 fontWeight: FontWeight.w500,
                                 letterSpacing: 0.5,
-                                color: Color.fromRGBO(27, 30, 40, 1),
+                                color: const Color.fromRGBO(27, 30, 40, 1),
                               ),
                             ),
                             Text(
@@ -135,7 +135,7 @@ class _Profile_PageState extends State<Profile_Page> {
                                 fontSize: 16,
                                 fontWeight: FontWeight.w500,
                                 letterSpacing: 0.5,
-                                color: Color.fromRGBO(13, 110, 253, 1),
+                                color: const Color.fromRGBO(13, 110, 253, 1),
                               ),
                             ),
                           ],
@@ -152,7 +152,7 @@ class _Profile_PageState extends State<Profile_Page> {
                                 fontSize: 13,
                                 fontWeight: FontWeight.w500,
                                 letterSpacing: 0.5,
-                                color: Color.fromRGBO(27, 30, 40, 1),
+                                color: const Color.fromRGBO(27, 30, 40, 1),
                               ),
                             ),
                             Text(
@@ -161,7 +161,7 @@ class _Profile_PageState extends State<Profile_Page> {
                                 fontSize: 16,
                                 fontWeight: FontWeight.w500,
                                 letterSpacing: 0.5,
-                                color: Color.fromRGBO(13, 110, 253, 1),
+                                color: const Color.fromRGBO(13, 110, 253, 1),
                               ),
                             ),
                           ],

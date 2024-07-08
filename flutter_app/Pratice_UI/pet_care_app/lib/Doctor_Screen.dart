@@ -13,12 +13,12 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(245, 146, 69, 1),
+      backgroundColor: const Color.fromRGBO(245, 146, 69, 1),
       body: Column(
         children: [
           Padding(
-            padding:
-                const EdgeInsets.only(top: 55, bottom: 15, left: 24, right: 24),
+            padding: const EdgeInsets.only(
+                top: 55, bottom: 13.555, left: 24, right: 24),
             child: Row(
               children: [
                 Container(
@@ -26,7 +26,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                   width: 26,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8),
-                    color: Color.fromRGBO(225, 255, 255, 1),
+                    color: const Color.fromRGBO(225, 255, 255, 1),
                     boxShadow: const [
                       BoxShadow(
                         offset: Offset(0, 8),
@@ -41,17 +41,17 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                       onTap: () {
                         Navigator.of(context)
                             .push(MaterialPageRoute(builder: (context) {
-                          return Dashboard();
+                          return const Dashboard();
                         }));
                       },
-                      child: Icon(
+                      child: const Icon(
                         Icons.arrow_back_ios_new,
                         color: Color.fromRGBO(245, 146, 69, 1),
                       ),
                     ),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 120,
                 ),
                 Text(
@@ -59,14 +59,14 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                   style: GoogleFonts.poppins(
                     fontWeight: FontWeight.w500,
                     fontSize: 16,
-                    color: Color.fromRGBO(225, 255, 255, 1),
+                    color: const Color.fromRGBO(225, 255, 255, 1),
                   ),
                 ),
               ],
             ),
           ),
           Container(
-            decoration: BoxDecoration(boxShadow: [
+            decoration: const BoxDecoration(boxShadow: [
               BoxShadow(
                   offset: Offset(0, 10),
                   blurRadius: 10,
@@ -78,7 +78,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
           Container(
             height: 635,
             width: double.infinity,
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(32),
                 topRight: Radius.circular(32),
@@ -96,7 +96,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                     style: GoogleFonts.poppins(
                       fontWeight: FontWeight.w500,
                       fontSize: 24,
-                      color: Color.fromRGBO(0, 0, 0, 1),
+                      color: const Color.fromRGBO(0, 0, 0, 1),
                     ),
                   ),
                   Text(
@@ -104,7 +104,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                     style: GoogleFonts.poppins(
                       fontWeight: FontWeight.w400,
                       fontSize: 12,
-                      color: Color.fromRGBO(194, 195, 204, 1),
+                      color: const Color.fromRGBO(194, 195, 204, 1),
                     ),
                   ),
                   Row(
@@ -117,7 +117,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                           width: 85,
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10),
-                              boxShadow: [
+                              boxShadow: const [
                                 BoxShadow(
                                   offset: Offset(0, 11),
                                   blurRadius: 25,
@@ -130,7 +130,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                                   ),
                                 ),
                               ],
-                              color: Color.fromRGBO(255, 255, 255, 1)),
+                              color: const Color.fromRGBO(255, 255, 255, 1)),
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
@@ -139,7 +139,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                                 style: GoogleFonts.poppins(
                                   fontWeight: FontWeight.w500,
                                   fontSize: 12,
-                                  color: Color.fromRGBO(31, 32, 41, 1),
+                                  color: const Color.fromRGBO(31, 32, 41, 1),
                                 ),
                               ),
                               Text(
@@ -147,7 +147,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                                 style: GoogleFonts.poppins(
                                   fontWeight: FontWeight.w600,
                                   fontSize: 16,
-                                  color: Color.fromRGBO(245, 146, 69, 1),
+                                  color: const Color.fromRGBO(245, 146, 69, 1),
                                 ),
                               ),
                             ],
@@ -162,7 +162,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                           width: 98.67,
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10),
-                              boxShadow: [
+                              boxShadow: const [
                                 BoxShadow(
                                   offset: Offset(0, 11),
                                   blurRadius: 25,
@@ -175,7 +175,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                                   ),
                                 ),
                               ],
-                              color: Color.fromRGBO(255, 255, 255, 1)),
+                              color: const Color.fromRGBO(255, 255, 255, 1)),
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
@@ -184,13 +184,13 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                                 style: GoogleFonts.poppins(
                                   fontWeight: FontWeight.w500,
                                   fontSize: 12,
-                                  color: Color.fromRGBO(31, 32, 41, 1),
+                                  color: const Color.fromRGBO(31, 32, 41, 1),
                                 ),
                               ),
                               Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
-                                  Icon(
+                                  const Icon(
                                     Icons.attach_money_sharp,
                                     size: 20,
                                     color: Color.fromRGBO(245, 146, 69, 1),
@@ -200,7 +200,8 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                                     style: GoogleFonts.poppins(
                                       fontWeight: FontWeight.w600,
                                       fontSize: 16,
-                                      color: Color.fromRGBO(245, 146, 69, 1),
+                                      color:
+                                          const Color.fromRGBO(245, 146, 69, 1),
                                     ),
                                   ),
                                 ],
@@ -211,13 +212,13 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                       ),
                       Padding(
                         padding: const EdgeInsets.only(
-                            top: 8, left: 16, right: 16, bottom: 8),
+                            top: 8, left: 16, right: 13, bottom: 8),
                         child: Container(
                           height: 62,
                           width: 98.67,
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10),
-                              boxShadow: [
+                              boxShadow: const [
                                 BoxShadow(
                                   offset: Offset(0, 11),
                                   blurRadius: 25,
@@ -230,7 +231,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                                   ),
                                 ),
                               ],
-                              color: Color.fromRGBO(255, 255, 255, 1)),
+                              color: const Color.fromRGBO(255, 255, 255, 1)),
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
@@ -239,7 +240,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                                 style: GoogleFonts.poppins(
                                   fontWeight: FontWeight.w500,
                                   fontSize: 12,
-                                  color: Color.fromRGBO(31, 32, 41, 1),
+                                  color: const Color.fromRGBO(31, 32, 41, 1),
                                 ),
                               ),
                               Text(
@@ -247,7 +248,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                                 style: GoogleFonts.poppins(
                                   fontWeight: FontWeight.w600,
                                   fontSize: 16,
-                                  color: Color.fromRGBO(245, 146, 69, 1),
+                                  color: const Color.fromRGBO(245, 146, 69, 1),
                                 ),
                               ),
                             ],
@@ -261,7 +262,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                     style: GoogleFonts.poppins(
                       fontWeight: FontWeight.w500,
                       fontSize: 14,
-                      color: Color.fromRGBO(0, 0, 0, 1),
+                      color: const Color.fromRGBO(0, 0, 0, 1),
                     ),
                   ),
                   Text(
@@ -269,7 +270,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                     style: GoogleFonts.poppins(
                       fontWeight: FontWeight.w400,
                       fontSize: 12,
-                      color: Color.fromRGBO(194, 195, 204, 1),
+                      color: const Color.fromRGBO(194, 195, 204, 1),
                     ),
                   ),
                   Text(
@@ -277,7 +278,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                     style: GoogleFonts.poppins(
                       fontWeight: FontWeight.w500,
                       fontSize: 14,
-                      color: Color.fromRGBO(0, 0, 0, 1),
+                      color: const Color.fromRGBO(0, 0, 0, 1),
                     ),
                   ),
                   Row(
@@ -289,7 +290,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(100),
                           border: Border.all(
-                            color: Color.fromRGBO(245, 146, 69, 1),
+                            color: const Color.fromRGBO(245, 146, 69, 1),
                           ),
                         ),
                         child: Center(
@@ -298,7 +299,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
                               fontSize: 12,
-                              color: Color.fromRGBO(49, 29, 14, 1),
+                              color: const Color.fromRGBO(49, 29, 14, 1),
                             ),
                             textAlign: TextAlign.center,
                           ),
@@ -310,7 +311,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(100),
                           border: Border.all(
-                            color: Color.fromRGBO(245, 146, 69, 1),
+                            color: const Color.fromRGBO(245, 146, 69, 1),
                           ),
                         ),
                         child: Center(
@@ -319,7 +320,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
                               fontSize: 12,
-                              color: Color.fromRGBO(49, 29, 14, 1),
+                              color: const Color.fromRGBO(49, 29, 14, 1),
                             ),
                             textAlign: TextAlign.center,
                           ),
@@ -330,7 +331,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                         width: 60,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(100),
-                          color: Color.fromRGBO(245, 146, 69, 1),
+                          color: const Color.fromRGBO(245, 146, 69, 1),
                         ),
                         child: Center(
                           child: Text(
@@ -338,7 +339,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
                               fontSize: 12,
-                              color: Color.fromRGBO(255, 255, 255, 1),
+                              color: const Color.fromRGBO(255, 255, 255, 1),
                             ),
                             textAlign: TextAlign.center,
                           ),
@@ -350,7 +351,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(100),
                           border: Border.all(
-                            color: Color.fromRGBO(245, 146, 69, 1),
+                            color: const Color.fromRGBO(245, 146, 69, 1),
                           ),
                         ),
                         child: Center(
@@ -359,7 +360,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
                               fontSize: 12,
-                              color: Color.fromRGBO(49, 29, 14, 1),
+                              color: const Color.fromRGBO(49, 29, 14, 1),
                             ),
                             textAlign: TextAlign.center,
                           ),
@@ -370,7 +371,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                         width: 60,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(100),
-                          color: Color.fromRGBO(245, 146, 69, 1),
+                          color: const Color.fromRGBO(245, 146, 69, 1),
                         ),
                         child: Center(
                           child: Text(
@@ -378,7 +379,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
                               fontSize: 12,
-                              color: Color.fromRGBO(255, 255, 255, 1),
+                              color: const Color.fromRGBO(255, 255, 255, 1),
                             ),
                             textAlign: TextAlign.center,
                           ),
@@ -391,7 +392,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                     style: GoogleFonts.poppins(
                       fontWeight: FontWeight.w500,
                       fontSize: 14,
-                      color: Color.fromRGBO(0, 0, 0, 1),
+                      color: const Color.fromRGBO(0, 0, 0, 1),
                     ),
                   ),
                   Row(
@@ -402,7 +403,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                         width: 60,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(100),
-                          color: Color.fromRGBO(245, 146, 69, 1),
+                          color: const Color.fromRGBO(245, 146, 69, 1),
                         ),
                         child: Center(
                           child: Text(
@@ -410,13 +411,13 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
                               fontSize: 12,
-                              color: Color.fromRGBO(255, 255, 255, 1),
+                              color: const Color.fromRGBO(255, 255, 255, 1),
                             ),
                             textAlign: TextAlign.center,
                           ),
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 10,
                       ),
                       Container(
@@ -425,7 +426,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(100),
                           border: Border.all(
-                            color: Color.fromRGBO(245, 146, 69, 1),
+                            color: const Color.fromRGBO(245, 146, 69, 1),
                           ),
                         ),
                         child: Center(
@@ -434,13 +435,13 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
                               fontSize: 12,
-                              color: Color.fromRGBO(49, 29, 14, 1),
+                              color: const Color.fromRGBO(49, 29, 14, 1),
                             ),
                             textAlign: TextAlign.center,
                           ),
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 10,
                       ),
                       Container(
@@ -449,7 +450,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(100),
                             border: Border.all(
-                              color: Color.fromRGBO(245, 146, 69, 1),
+                              color: const Color.fromRGBO(245, 146, 69, 1),
                             )),
                         child: Center(
                           child: Text(
@@ -457,7 +458,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
                               fontSize: 12,
-                              color: Color.fromRGBO(49, 29, 14, 1),
+                              color: const Color.fromRGBO(49, 29, 14, 1),
                             ),
                             textAlign: TextAlign.center,
                           ),
@@ -470,12 +471,12 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                     width: double.infinity,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(8),
-                      color: Color.fromRGBO(252, 219, 193, 1),
+                      color: const Color.fromRGBO(252, 219, 193, 1),
                     ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(
+                        const Icon(
                           Icons.map_outlined,
                           color: Color.fromRGBO(163, 97, 46, 1),
                         ),
@@ -484,7 +485,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                           style: GoogleFonts.poppins(
                             fontWeight: FontWeight.w500,
                             fontSize: 12,
-                            color: Color.fromRGBO(163, 97, 46, 1),
+                            color: const Color.fromRGBO(163, 97, 46, 1),
                           ),
                         )
                       ],
@@ -495,7 +496,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                     width: double.infinity,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(8),
-                      color: Color.fromRGBO(245, 146, 69, 1),
+                      color: const Color.fromRGBO(245, 146, 69, 1),
                     ),
                     child: Center(
                         child: Text(
@@ -503,7 +504,7 @@ class _Doctor_ScreenState extends State<Doctor_Screen> {
                       style: GoogleFonts.poppins(
                         fontWeight: FontWeight.w500,
                         fontSize: 12,
-                        color: Color.fromRGBO(255, 255, 255, 1),
+                        color: const Color.fromRGBO(255, 255, 255, 1),
                       ),
                     )),
                   )

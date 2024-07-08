@@ -14,7 +14,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(247, 246, 250, 1),
+      backgroundColor: const Color.fromRGBO(247, 246, 250, 1),
       body: Padding(
         padding: const EdgeInsets.only(left: 40, top: 80),
         child: Column(
@@ -25,10 +25,10 @@ class _ActivityScreenState extends State<ActivityScreen> {
               style: GoogleFonts.lato(
                 fontSize: 18,
                 fontWeight: FontWeight.w700,
-                color: Color.fromRGBO(25, 33, 38, 1),
+                color: const Color.fromRGBO(25, 33, 38, 1),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             SingleChildScrollView(
@@ -40,7 +40,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                     width: 45,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(12),
-                      color: Color.fromRGBO(187, 242, 70, 1),
+                      color: const Color.fromRGBO(187, 242, 70, 1),
                     ),
                     child: Column(
                       children: [
@@ -49,7 +49,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                           style: GoogleFonts.lato(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
-                            color: Color.fromRGBO(25, 33, 38, 1),
+                            color: const Color.fromRGBO(25, 33, 38, 1),
                           ),
                         ),
                         Text(
@@ -57,13 +57,13 @@ class _ActivityScreenState extends State<ActivityScreen> {
                           style: GoogleFonts.lato(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
-                            color: Color.fromRGBO(25, 33, 38, 1),
+                            color: const Color.fromRGBO(25, 33, 38, 1),
                           ),
                         )
                       ],
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 5,
                   ),
                   Container(
@@ -71,7 +71,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                     width: 45,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(12),
-                      color: Color.fromRGBO(187, 242, 70, 1),
+                      color: const Color.fromRGBO(187, 242, 70, 1),
                     ),
                     child: Column(
                       children: [
@@ -80,7 +80,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                           style: GoogleFonts.lato(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
-                            color: Color.fromRGBO(25, 33, 38, 1),
+                            color: const Color.fromRGBO(25, 33, 38, 1),
                           ),
                         ),
                         Text(
@@ -88,13 +88,13 @@ class _ActivityScreenState extends State<ActivityScreen> {
                           style: GoogleFonts.lato(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
-                            color: Color.fromRGBO(25, 33, 38, 1),
+                            color: const Color.fromRGBO(25, 33, 38, 1),
                           ),
                         )
                       ],
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 5,
                   ),
                   Container(
@@ -102,7 +102,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                     width: 45,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(12),
-                      color: Color.fromRGBO(25, 33, 38, 1),
+                      color: const Color.fromRGBO(25, 33, 38, 1),
                     ),
                     child: Column(
                       children: [
@@ -111,7 +111,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                           style: GoogleFonts.lato(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
-                            color: Color.fromRGBO(255, 255, 255, 1),
+                            color: const Color.fromRGBO(255, 255, 255, 1),
                           ),
                         ),
                         Text(
@@ -119,13 +119,13 @@ class _ActivityScreenState extends State<ActivityScreen> {
                           style: GoogleFonts.lato(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
-                            color: Color.fromRGBO(255, 255, 255, 1),
+                            color: const Color.fromRGBO(255, 255, 255, 1),
                           ),
                         )
                       ],
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 5,
                   ),
                   Container(
@@ -133,7 +133,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                     width: 45,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(12),
-                      color: Color.fromRGBO(187, 242, 70, 1),
+                      color: const Color.fromRGBO(187, 242, 70, 1),
                     ),
                     child: Column(
                       children: [
@@ -142,7 +142,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                           style: GoogleFonts.lato(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
-                            color: Color.fromRGBO(25, 33, 38, 1),
+                            color: const Color.fromRGBO(25, 33, 38, 1),
                           ),
                         ),
                         Text(
@@ -150,13 +150,13 @@ class _ActivityScreenState extends State<ActivityScreen> {
                           style: GoogleFonts.lato(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
-                            color: Color.fromRGBO(25, 33, 38, 1),
+                            color: const Color.fromRGBO(25, 33, 38, 1),
                           ),
                         )
                       ],
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 5,
                   ),
                   Container(
@@ -164,7 +164,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                     width: 45,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(12),
-                      color: Color.fromRGBO(187, 242, 70, 1),
+                      color: const Color.fromRGBO(187, 242, 70, 1),
                     ),
                     child: Column(
                       children: [
@@ -173,7 +173,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                           style: GoogleFonts.lato(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
-                            color: Color.fromRGBO(25, 33, 38, 1),
+                            color: const Color.fromRGBO(25, 33, 38, 1),
                           ),
                         ),
                         Text(
@@ -181,13 +181,13 @@ class _ActivityScreenState extends State<ActivityScreen> {
                           style: GoogleFonts.lato(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
-                            color: Color.fromRGBO(25, 33, 38, 1),
+                            color: const Color.fromRGBO(25, 33, 38, 1),
                           ),
                         )
                       ],
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 5,
                   ),
                   Container(
@@ -195,7 +195,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                     width: 45,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(12),
-                      color: Color.fromRGBO(187, 242, 70, 1),
+                      color: const Color.fromRGBO(187, 242, 70, 1),
                     ),
                     child: Column(
                       children: [
@@ -204,7 +204,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                           style: GoogleFonts.lato(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
-                            color: Color.fromRGBO(25, 33, 38, 1),
+                            color: const Color.fromRGBO(25, 33, 38, 1),
                           ),
                         ),
                         Text(
@@ -212,13 +212,13 @@ class _ActivityScreenState extends State<ActivityScreen> {
                           style: GoogleFonts.lato(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
-                            color: Color.fromRGBO(25, 33, 38, 1),
+                            color: const Color.fromRGBO(25, 33, 38, 1),
                           ),
                         )
                       ],
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 5,
                   ),
                   Container(
@@ -226,7 +226,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                     width: 45,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(12),
-                      color: Color.fromRGBO(187, 242, 70, 1),
+                      color: const Color.fromRGBO(187, 242, 70, 1),
                     ),
                     child: Column(
                       children: [
@@ -235,7 +235,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                           style: GoogleFonts.lato(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
-                            color: Color.fromRGBO(25, 33, 38, 1),
+                            color: const Color.fromRGBO(25, 33, 38, 1),
                           ),
                         ),
                         Text(
@@ -243,13 +243,13 @@ class _ActivityScreenState extends State<ActivityScreen> {
                           style: GoogleFonts.lato(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
-                            color: Color.fromRGBO(25, 33, 38, 1),
+                            color: const Color.fromRGBO(25, 33, 38, 1),
                           ),
                         )
                       ],
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 5,
                   ),
                   Container(
@@ -257,7 +257,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                     width: 45,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(12),
-                      color: Color.fromRGBO(187, 242, 70, 1),
+                      color: const Color.fromRGBO(187, 242, 70, 1),
                     ),
                     child: Column(
                       children: [
@@ -266,7 +266,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                           style: GoogleFonts.lato(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
-                            color: Color.fromRGBO(25, 33, 38, 1),
+                            color: const Color.fromRGBO(25, 33, 38, 1),
                           ),
                         ),
                         Text(
@@ -274,13 +274,13 @@ class _ActivityScreenState extends State<ActivityScreen> {
                           style: GoogleFonts.lato(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
-                            color: Color.fromRGBO(25, 33, 38, 1),
+                            color: const Color.fromRGBO(25, 33, 38, 1),
                           ),
                         )
                       ],
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 5,
                   ),
                   Container(
@@ -288,7 +288,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                     width: 45,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(12),
-                      color: Color.fromRGBO(187, 242, 70, 1),
+                      color: const Color.fromRGBO(187, 242, 70, 1),
                     ),
                     child: Column(
                       children: [
@@ -297,7 +297,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                           style: GoogleFonts.lato(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
-                            color: Color.fromRGBO(25, 33, 38, 1),
+                            color: const Color.fromRGBO(25, 33, 38, 1),
                           ),
                         ),
                         Text(
@@ -305,13 +305,13 @@ class _ActivityScreenState extends State<ActivityScreen> {
                           style: GoogleFonts.lato(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
-                            color: Color.fromRGBO(25, 33, 38, 1),
+                            color: const Color.fromRGBO(25, 33, 38, 1),
                           ),
                         )
                       ],
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 5,
                   ),
                   Container(
@@ -319,7 +319,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                     width: 45,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(12),
-                      color: Color.fromRGBO(187, 242, 70, 1),
+                      color: const Color.fromRGBO(187, 242, 70, 1),
                     ),
                     child: Column(
                       children: [
@@ -328,7 +328,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                           style: GoogleFonts.lato(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
-                            color: Color.fromRGBO(25, 33, 38, 1),
+                            color: const Color.fromRGBO(25, 33, 38, 1),
                           ),
                         ),
                         Text(
@@ -336,7 +336,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                           style: GoogleFonts.lato(
                             fontSize: 14,
                             fontWeight: FontWeight.w600,
-                            color: Color.fromRGBO(25, 33, 38, 1),
+                            color: const Color.fromRGBO(25, 33, 38, 1),
                           ),
                         )
                       ],
@@ -345,7 +345,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                 ],
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 40,
             ),
             Text(
@@ -353,10 +353,10 @@ class _ActivityScreenState extends State<ActivityScreen> {
               style: GoogleFonts.lato(
                 fontSize: 18,
                 fontWeight: FontWeight.w700,
-                color: Color.fromRGBO(25, 33, 38, 1),
+                color: const Color.fromRGBO(25, 33, 38, 1),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             Row(
@@ -370,9 +370,9 @@ class _ActivityScreenState extends State<ActivityScreen> {
                         borderRadius: BorderRadius.circular(12),
                         border: Border.all(
                           width: 1,
-                          color: Color.fromRGBO(25, 33, 38, 0.1),
+                          color: const Color.fromRGBO(25, 33, 38, 0.1),
                         ),
-                        color: Color.fromRGBO(250, 251, 249, 1),
+                        color: const Color.fromRGBO(250, 251, 249, 1),
                       ),
                       child: Padding(
                         padding: const EdgeInsets.all(10.0),
@@ -385,7 +385,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                               style: GoogleFonts.lato(
                                 fontSize: 13,
                                 fontWeight: FontWeight.w500,
-                                color: Color.fromRGBO(25, 33, 38, 0.5),
+                                color: const Color.fromRGBO(25, 33, 38, 0.5),
                               ),
                             ),
                             Text(
@@ -393,14 +393,14 @@ class _ActivityScreenState extends State<ActivityScreen> {
                               style: GoogleFonts.lato(
                                 fontSize: 16,
                                 fontWeight: FontWeight.w600,
-                                color: Color.fromRGBO(25, 33, 38, 1),
+                                color: const Color.fromRGBO(25, 33, 38, 1),
                               ),
                             ),
                           ],
                         ),
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 20,
                     ),
                     Container(
@@ -408,7 +408,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                       width: 112,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(12),
-                        color: Color.fromRGBO(234, 236, 255, 1),
+                        color: const Color.fromRGBO(234, 236, 255, 1),
                       ),
                       child: Padding(
                         padding: const EdgeInsets.all(10.0),
@@ -421,15 +421,15 @@ class _ActivityScreenState extends State<ActivityScreen> {
                               style: GoogleFonts.lato(
                                 fontSize: 13,
                                 fontWeight: FontWeight.w500,
-                                color: Color.fromRGBO(25, 33, 38, 1),
+                                color: const Color.fromRGBO(25, 33, 38, 1),
                               ),
                             ),
                             CircularPercentIndicator(
                               radius: 40,
                               lineWidth: 10,
                               circularStrokeCap: CircularStrokeCap.round,
-                              progressColor: Color.fromRGBO(164, 138, 237, 1),
-                              backgroundColor: Color.fromRGBO(255, 255, 255, 1),
+                              progressColor: const Color.fromRGBO(164, 138, 237, 1),
+                              backgroundColor: const Color.fromRGBO(255, 255, 255, 1),
                               percent: 0.8,
                               animation: true,
                               animationDuration: 2000,
@@ -438,7 +438,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                                 style: GoogleFonts.lato(
                                   fontSize: 14,
                                   fontWeight: FontWeight.w600,
-                                  color: Color.fromRGBO(25, 33, 38, 1),
+                                  color: const Color.fromRGBO(25, 33, 38, 1),
                                 ),
                               ),
                             )
@@ -448,7 +448,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                     ),
                   ],
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 15,
                 ),
                 Container(
@@ -456,7 +456,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                   width: 222,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
-                    color: Color.fromRGBO(25, 33, 38, 1),
+                    color: const Color.fromRGBO(25, 33, 38, 1),
                   ),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -470,11 +470,11 @@ class _ActivityScreenState extends State<ActivityScreen> {
                               width: 28,
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(3),
-                                  color: Color.fromRGBO(250, 251, 249, 1),
-                                  image: DecorationImage(
+                                  color: const Color.fromRGBO(250, 251, 249, 1),
+                                  image: const DecorationImage(
                                       image: AssetImage("assets/Group 4.png"))),
                             ),
-                            SizedBox(
+                            const SizedBox(
                               width: 10,
                             ),
                             Text(
@@ -482,7 +482,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                               style: GoogleFonts.lato(
                                 fontSize: 18,
                                 fontWeight: FontWeight.w700,
-                                color: Color.fromRGBO(255, 255, 255, 1),
+                                color: const Color.fromRGBO(255, 255, 255, 1),
                               ),
                             ),
                           ],
@@ -494,7 +494,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                 ),
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             Row(
@@ -504,7 +504,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                   width: 199,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
-                    color: Color.fromRGBO(255, 235, 235, 1),
+                    color: const Color.fromRGBO(255, 235, 235, 1),
                   ),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -518,11 +518,11 @@ class _ActivityScreenState extends State<ActivityScreen> {
                               width: 28,
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(3),
-                                  color: Color.fromRGBO(249, 185, 185, 1),
-                                  image: DecorationImage(
+                                  color: const Color.fromRGBO(249, 185, 185, 1),
+                                  image: const DecorationImage(
                                       image: AssetImage("assets/icon.png"))),
                             ),
-                            SizedBox(
+                            const SizedBox(
                               width: 10,
                             ),
                             Text(
@@ -530,7 +530,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                               style: GoogleFonts.lato(
                                 fontSize: 18,
                                 fontWeight: FontWeight.w700,
-                                color: Color.fromRGBO(25, 33, 38, 1),
+                                color: const Color.fromRGBO(25, 33, 38, 1),
                               ),
                             ),
                           ],
@@ -540,7 +540,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                     ],
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 15,
                 ),
                 Column(
@@ -550,7 +550,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                       width: 135,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(12),
-                        color: Color.fromRGBO(255, 232, 198, 1),
+                        color: const Color.fromRGBO(255, 232, 198, 1),
                       ),
                       child: Padding(
                         padding: const EdgeInsets.all(10.0),
@@ -565,8 +565,8 @@ class _ActivityScreenState extends State<ActivityScreen> {
                                   width: 28,
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(3),
-                                    color: Color.fromRGBO(248, 211, 157, 1),
-                                    image: DecorationImage(
+                                    color: const Color.fromRGBO(248, 211, 157, 1),
+                                    image: const DecorationImage(
                                       image: AssetImage("assets/icon (1).png"),
                                     ),
                                   ),
@@ -576,7 +576,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                                   style: GoogleFonts.lato(
                                     fontSize: 18,
                                     fontWeight: FontWeight.w700,
-                                    color: Color.fromRGBO(25, 33, 38, 1),
+                                    color: const Color.fromRGBO(25, 33, 38, 1),
                                   ),
                                 ),
                               ],
@@ -587,7 +587,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                                 style: GoogleFonts.lato(
                                   fontSize: 13,
                                   fontWeight: FontWeight.w600,
-                                  color: Color.fromRGBO(25, 33, 38, 1),
+                                  color: const Color.fromRGBO(25, 33, 38, 1),
                                 ),
                               ),
                             ),
@@ -595,8 +595,8 @@ class _ActivityScreenState extends State<ActivityScreen> {
                               width: 115,
                               lineHeight: 10,
                               percent: 0.5,
-                              backgroundColor: Color.fromRGBO(255, 237, 209, 1),
-                              progressColor: Color.fromRGBO(252, 196, 111, 1),
+                              backgroundColor: const Color.fromRGBO(255, 237, 209, 1),
+                              progressColor: const Color.fromRGBO(252, 196, 111, 1),
                               animation: true,
                               animationDuration: 2000,
                             ),
@@ -604,7 +604,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                         ),
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 20,
                     ),
                     Container(
@@ -612,7 +612,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                       width: 135,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(12),
-                        color: Color.fromRGBO(246, 207, 207, 1),
+                        color: const Color.fromRGBO(246, 207, 207, 1),
                       ),
                       child: Padding(
                         padding: const EdgeInsets.all(10.0),
@@ -625,7 +625,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                               style: GoogleFonts.lato(
                                 fontSize: 16,
                                 fontWeight: FontWeight.w600,
-                                color: Color.fromRGBO(25, 33, 38, 1),
+                                color: const Color.fromRGBO(25, 33, 38, 1),
                               ),
                             ),
                           ],
@@ -636,7 +636,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                 ),
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             Row(
@@ -646,7 +646,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                   width: 178,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
-                    color: Color.fromRGBO(239, 226, 255, 1),
+                    color: const Color.fromRGBO(239, 226, 255, 1),
                   ),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -660,11 +660,11 @@ class _ActivityScreenState extends State<ActivityScreen> {
                               width: 28,
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(3),
-                                  color: Color.fromRGBO(214, 187, 248, 1),
-                                  image: DecorationImage(
+                                  color: const Color.fromRGBO(214, 187, 248, 1),
+                                  image: const DecorationImage(
                                       image: AssetImage("assets/Vector.png"))),
                             ),
-                            SizedBox(
+                            const SizedBox(
                               width: 10,
                             ),
                             Text(
@@ -672,7 +672,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                               style: GoogleFonts.lato(
                                 fontSize: 18,
                                 fontWeight: FontWeight.w700,
-                                color: Color.fromRGBO(25, 33, 38, 1),
+                                color: const Color.fromRGBO(25, 33, 38, 1),
                               ),
                             ),
                           ],
@@ -682,7 +682,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                     ],
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 15,
                 ),
                 Container(
@@ -690,7 +690,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                   width: 156,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
-                    color: Color.fromRGBO(216, 230, 236, 1),
+                    color: const Color.fromRGBO(216, 230, 236, 1),
                   ),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -704,12 +704,12 @@ class _ActivityScreenState extends State<ActivityScreen> {
                               width: 28,
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(3),
-                                  color: Color.fromRGBO(214, 187, 248, 1),
-                                  image: DecorationImage(
+                                  color: const Color.fromRGBO(214, 187, 248, 1),
+                                  image: const DecorationImage(
                                       image:
                                           AssetImage("assets/ic_water.png"))),
                             ),
-                            SizedBox(
+                            const SizedBox(
                               width: 10,
                             ),
                             Text(
@@ -717,7 +717,7 @@ class _ActivityScreenState extends State<ActivityScreen> {
                               style: GoogleFonts.lato(
                                 fontSize: 18,
                                 fontWeight: FontWeight.w700,
-                                color: Color.fromRGBO(25, 33, 38, 1),
+                                color: const Color.fromRGBO(25, 33, 38, 1),
                               ),
                             ),
                           ],

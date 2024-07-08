@@ -15,10 +15,11 @@ class IntroPage3 extends StatelessWidget {
           padding: const EdgeInsets.all(16.0),
           child: Image.asset(
             'assets/252a6624a42c117099537c7a1320256d 1.png',
+            width: double.infinity,
             fit: BoxFit.cover,
           ),
         ),
-        SizedBox(height: 20),
+        const SizedBox(height: 20),
 
         Padding(
           padding: const EdgeInsets.only(left: 33, right: 33),
@@ -28,23 +29,23 @@ class IntroPage3 extends StatelessWidget {
               style: GoogleFonts.aclonica(
                 fontSize: 26,
                 fontWeight: FontWeight.w400,
-                color: Color.fromRGBO(27, 30, 40, 1),
+                color: const Color.fromRGBO(27, 30, 40, 1),
               ),
               children: <TextSpan>[
-                TextSpan(text: 'People don’t take trips, trips take '),
+                const TextSpan(text: 'People don’t take trips, trips take '),
                 TextSpan(
                   text: 'people',
                   style: GoogleFonts.aclonica(
                     fontSize: 26,
                     fontWeight: FontWeight.w400,
-                    color: Color.fromRGBO(255, 112, 41, 1),
+                    color: const Color.fromRGBO(255, 112, 41, 1),
                   ),
                 ),
               ],
             ),
           ),
         ),
-        SizedBox(
+        const SizedBox(
           height: 30,
         ),
         Padding(
@@ -55,11 +56,11 @@ class IntroPage3 extends StatelessWidget {
             style: GoogleFonts.poppins(
               fontSize: 16,
               fontWeight: FontWeight.w400,
-              color: Color.fromRGBO(125, 132, 141, 1),
+              color: const Color.fromRGBO(125, 132, 141, 1),
             ),
           ),
         ),
-        Spacer(),
+        const Spacer(),
         Padding(
           padding: const EdgeInsets.only(bottom: 32.0),
           child: Container(
@@ -76,8 +77,8 @@ class IntroPage3 extends StatelessWidget {
                 );
               },
               style: ElevatedButton.styleFrom(
-                backgroundColor: Color.fromRGBO(13, 110, 253, 1),
-                padding: EdgeInsets.symmetric(horizontal: 50, vertical: 20),
+                backgroundColor: const Color.fromRGBO(13, 110, 253, 1),
+                padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 20),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(30.0),
                 ),
@@ -87,7 +88,7 @@ class IntroPage3 extends StatelessWidget {
                 style: GoogleFonts.poppins(
                   fontSize: 16,
                   fontWeight: FontWeight.w600,
-                  color: Color.fromRGBO(255, 255, 255, 1),
+                  color: const Color.fromRGBO(255, 255, 255, 1),
                 ),
               ),
             ),

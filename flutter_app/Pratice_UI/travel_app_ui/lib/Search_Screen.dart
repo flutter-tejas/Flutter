@@ -40,7 +40,7 @@ class _Search_PageState extends State<Search_Page> {
                 ],
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             TextField(
@@ -75,15 +75,13 @@ class _Search_PageState extends State<Search_Page> {
             ),
             Expanded(
               child: GridView(
-                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 2,
-                    crossAxisSpacing: 10,
-                    mainAxisSpacing: 10),
+                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 2, crossAxisSpacing: 3, mainAxisSpacing: 3),
                 children: [
                   Container(
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(16),
-                      color: Color.fromRGBO(255, 255, 255, 1),
+                      color: const Color.fromRGBO(255, 255, 255, 1),
                     ),
                     child: Padding(
                       padding:
@@ -91,7 +89,7 @@ class _Search_PageState extends State<Search_Page> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Image.asset("assets/Group 96.png"),
+                          Center(child: Image.asset("assets/Group 96.png")),
                           Text(
                             "Niladri Reservoir",
                             style: GoogleFonts.poppins(
@@ -101,7 +99,7 @@ class _Search_PageState extends State<Search_Page> {
                           ),
                           Row(
                             children: [
-                              Icon(
+                              const Icon(
                                 Icons.location_on_outlined,
                                 size: 13.33,
                                 color: Color.fromRGBO(125, 132, 141, 1),
@@ -111,7 +109,7 @@ class _Search_PageState extends State<Search_Page> {
                                 style: GoogleFonts.poppins(
                                   fontSize: 13,
                                   fontWeight: FontWeight.w400,
-                                  color: Color.fromRGBO(125, 132, 141, 1),
+                                  color: const Color.fromRGBO(125, 132, 141, 1),
                                 ),
                               ),
                             ],
@@ -123,7 +121,7 @@ class _Search_PageState extends State<Search_Page> {
                                 style: GoogleFonts.poppins(
                                   fontSize: 12,
                                   fontWeight: FontWeight.w400,
-                                  color: Color.fromRGBO(13, 110, 253, 1),
+                                  color: const Color.fromRGBO(13, 110, 253, 1),
                                 ),
                               ),
                               Text(
@@ -131,7 +129,7 @@ class _Search_PageState extends State<Search_Page> {
                                 style: GoogleFonts.poppins(
                                   fontSize: 12,
                                   fontWeight: FontWeight.w400,
-                                  color: Color.fromRGBO(125, 132, 141, 1),
+                                  color: const Color.fromRGBO(125, 132, 141, 1),
                                 ),
                               ),
                             ],
@@ -143,7 +141,7 @@ class _Search_PageState extends State<Search_Page> {
                   Container(
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(16),
-                      color: Color.fromRGBO(255, 255, 255, 1),
+                      color: const Color.fromRGBO(255, 255, 255, 1),
                     ),
                     child: Padding(
                       padding:
@@ -151,11 +149,13 @@ class _Search_PageState extends State<Search_Page> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Image.asset(
-                            "assets/Group 96 (1).png",
-                            height: 124,
-                            width: 137,
-                            fit: BoxFit.cover,
+                          Center(
+                            child: Image.asset(
+                              "assets/Group 96 (1).png",
+                              height: 124,
+                              width: 137,
+                              fit: BoxFit.cover,
+                            ),
                           ),
                           Text(
                             "Casalas Tirtugas",
@@ -166,7 +166,7 @@ class _Search_PageState extends State<Search_Page> {
                           ),
                           Row(
                             children: [
-                              Icon(
+                              const Icon(
                                 Icons.location_on_outlined,
                                 size: 13.33,
                                 color: Color.fromRGBO(125, 132, 141, 1),
@@ -176,7 +176,7 @@ class _Search_PageState extends State<Search_Page> {
                                 style: GoogleFonts.poppins(
                                   fontSize: 13,
                                   fontWeight: FontWeight.w400,
-                                  color: Color.fromRGBO(125, 132, 141, 1),
+                                  color: const Color.fromRGBO(125, 132, 141, 1),
                                 ),
                               ),
                             ],
@@ -188,7 +188,7 @@ class _Search_PageState extends State<Search_Page> {
                                 style: GoogleFonts.poppins(
                                   fontSize: 12,
                                   fontWeight: FontWeight.w400,
-                                  color: Color.fromRGBO(13, 110, 253, 1),
+                                  color: const Color.fromRGBO(13, 110, 253, 1),
                                 ),
                               ),
                               Text(
@@ -196,7 +196,7 @@ class _Search_PageState extends State<Search_Page> {
                                 style: GoogleFonts.poppins(
                                   fontSize: 12,
                                   fontWeight: FontWeight.w400,
-                                  color: Color.fromRGBO(125, 132, 141, 1),
+                                  color: const Color.fromRGBO(125, 132, 141, 1),
                                 ),
                               ),
                             ],
@@ -208,7 +208,7 @@ class _Search_PageState extends State<Search_Page> {
                   Container(
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(16),
-                      color: Color.fromRGBO(255, 255, 255, 1),
+                      color: const Color.fromRGBO(255, 255, 255, 1),
                     ),
                     child: Padding(
                       padding:
@@ -216,7 +216,7 @@ class _Search_PageState extends State<Search_Page> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Image.asset("assets/Group 96 (2).png"),
+                          Center(child: Image.asset("assets/Group 96 (2).png")),
                           Text(
                             "Aonang Villa",
                             style: GoogleFonts.poppins(
@@ -226,7 +226,7 @@ class _Search_PageState extends State<Search_Page> {
                           ),
                           Row(
                             children: [
-                              Icon(
+                              const Icon(
                                 Icons.location_on_outlined,
                                 size: 13.33,
                                 color: Color.fromRGBO(125, 132, 141, 1),
@@ -236,7 +236,7 @@ class _Search_PageState extends State<Search_Page> {
                                 style: GoogleFonts.poppins(
                                   fontSize: 13,
                                   fontWeight: FontWeight.w400,
-                                  color: Color.fromRGBO(125, 132, 141, 1),
+                                  color: const Color.fromRGBO(125, 132, 141, 1),
                                 ),
                               ),
                             ],
@@ -248,7 +248,7 @@ class _Search_PageState extends State<Search_Page> {
                                 style: GoogleFonts.poppins(
                                   fontSize: 12,
                                   fontWeight: FontWeight.w400,
-                                  color: Color.fromRGBO(13, 110, 253, 1),
+                                  color: const Color.fromRGBO(13, 110, 253, 1),
                                 ),
                               ),
                               Text(
@@ -256,7 +256,7 @@ class _Search_PageState extends State<Search_Page> {
                                 style: GoogleFonts.poppins(
                                   fontSize: 12,
                                   fontWeight: FontWeight.w400,
-                                  color: Color.fromRGBO(125, 132, 141, 1),
+                                  color: const Color.fromRGBO(125, 132, 141, 1),
                                 ),
                               ),
                             ],
@@ -268,7 +268,7 @@ class _Search_PageState extends State<Search_Page> {
                   Container(
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(16),
-                      color: Color.fromRGBO(255, 255, 255, 1),
+                      color: const Color.fromRGBO(255, 255, 255, 1),
                     ),
                     child: Padding(
                       padding:
@@ -276,7 +276,7 @@ class _Search_PageState extends State<Search_Page> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Image.asset("assets/Group 96 (3).png"),
+                          Center(child: Image.asset("assets/Group 96 (3).png")),
                           Text(
                             "Niladri Reservoir",
                             style: GoogleFonts.poppins(
@@ -286,7 +286,7 @@ class _Search_PageState extends State<Search_Page> {
                           ),
                           Row(
                             children: [
-                              Icon(
+                              const Icon(
                                 Icons.location_on_outlined,
                                 size: 13.33,
                                 color: Color.fromRGBO(125, 132, 141, 1),
@@ -296,7 +296,7 @@ class _Search_PageState extends State<Search_Page> {
                                 style: GoogleFonts.poppins(
                                   fontSize: 13,
                                   fontWeight: FontWeight.w400,
-                                  color: Color.fromRGBO(125, 132, 141, 1),
+                                  color: const Color.fromRGBO(125, 132, 141, 1),
                                 ),
                               ),
                             ],
@@ -308,7 +308,7 @@ class _Search_PageState extends State<Search_Page> {
                                 style: GoogleFonts.poppins(
                                   fontSize: 12,
                                   fontWeight: FontWeight.w400,
-                                  color: Color.fromRGBO(13, 110, 253, 1),
+                                  color: const Color.fromRGBO(13, 110, 253, 1),
                                 ),
                               ),
                               Text(
@@ -316,7 +316,7 @@ class _Search_PageState extends State<Search_Page> {
                                 style: GoogleFonts.poppins(
                                   fontSize: 12,
                                   fontWeight: FontWeight.w400,
-                                  color: Color.fromRGBO(125, 132, 141, 1),
+                                  color: const Color.fromRGBO(125, 132, 141, 1),
                                 ),
                               ),
                             ],

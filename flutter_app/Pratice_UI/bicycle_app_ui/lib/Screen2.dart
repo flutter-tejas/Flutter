@@ -485,23 +485,23 @@ class _Screen2State extends State<Screen2> {
                         ],
                       ),
                     ),
-                    child: Icon(
+                    child: const Icon(
                       Icons.home_outlined,
                       size: 40,
                       color: Color.fromRGBO(255, 255, 255, 1),
                     ),
                   ),
-                  Icon(
+                  const Icon(
                     Icons.shopping_bag_outlined,
                     size: 40,
                     color: Color.fromRGBO(255, 255, 255, 1),
                   ),
-                  Icon(
+                  const Icon(
                     Icons.account_balance_wallet_outlined,
                     size: 40,
                     color: Color.fromRGBO(255, 255, 255, 1),
                   ),
-                  Icon(
+                  const Icon(
                     Icons.person_2_outlined,
                     size: 40,
                     color: Color.fromRGBO(255, 255, 255, 1),

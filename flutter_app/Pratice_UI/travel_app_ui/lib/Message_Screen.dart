@@ -13,7 +13,7 @@ class _Messages_PageState extends State<Messages_Page> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(247, 247, 249, 1),
+      backgroundColor: const Color.fromRGBO(247, 247, 249, 1),
       body: Padding(
         padding: const EdgeInsets.all(20),
         child: Column(
@@ -30,12 +30,12 @@ class _Messages_PageState extends State<Messages_Page> {
                       color: const Color.fromRGBO(27, 30, 40, 1),
                     ),
                   ),
-                  Spacer(),
-                  Icon(Icons.more_vert),
+                  const Spacer(),
+                  const Icon(Icons.more_vert),
                 ],
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 50,
             ),
             Row(
@@ -48,11 +48,11 @@ class _Messages_PageState extends State<Messages_Page> {
                     color: const Color.fromRGBO(27, 30, 40, 1),
                   ),
                 ),
-                Spacer(),
-                Icon(Icons.edit_square)
+                const Spacer(),
+                const Icon(Icons.edit_square)
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 30,
             ),
             TextField(
@@ -85,7 +85,7 @@ class _Messages_PageState extends State<Messages_Page> {
                         ),
                       );
                     },
-                    child: Container(
+                    child: SizedBox(
                       height: 70,
                       width: 335,
                       child: Row(
@@ -113,11 +113,11 @@ class _Messages_PageState extends State<Messages_Page> {
                               )
                             ],
                           ),
-                          Spacer(),
-                          Icon(
+                          const Spacer(),
+                          const Icon(
                             Icons.done,
                             size: 15,
-                            color: const Color.fromRGBO(125, 132, 141, 1),
+                            color: Color.fromRGBO(125, 132, 141, 1),
                           ),
                           Text(
                             "09.46",
@@ -131,10 +131,10 @@ class _Messages_PageState extends State<Messages_Page> {
                       ),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 20,
                   ),
-                  Container(
+                  SizedBox(
                     height: 70,
                     width: 335,
                     child: Row(
@@ -162,11 +162,11 @@ class _Messages_PageState extends State<Messages_Page> {
                             )
                           ],
                         ),
-                        Spacer(),
-                        Icon(
+                        const Spacer(),
+                        const Icon(
                           Icons.done_all,
                           size: 15,
-                          color: const Color.fromRGBO(25, 176, 0, 1),
+                          color: Color.fromRGBO(25, 176, 0, 1),
                         ),
                         Text(
                           "09.46",
@@ -179,10 +179,10 @@ class _Messages_PageState extends State<Messages_Page> {
                       ],
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 20,
                   ),
-                  Container(
+                  SizedBox(
                     height: 70,
                     width: 335,
                     child: Row(
@@ -211,11 +211,11 @@ near the traveling!''',
                             )
                           ],
                         ),
-                        Spacer(),
-                        Icon(
+                        const Spacer(),
+                        const Icon(
                           Icons.done_all,
                           size: 15,
-                          color: const Color.fromRGBO(125, 132, 141, 1),
+                          color: Color.fromRGBO(125, 132, 141, 1),
                         ),
                         Text(
                           "Yesterday",
@@ -228,10 +228,10 @@ near the traveling!''',
                       ],
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 20,
                   ),
-                  Container(
+                  SizedBox(
                     height: 70,
                     width: 335,
                     child: Row(
@@ -260,11 +260,11 @@ party on Saturday?''',
                             )
                           ],
                         ),
-                        Spacer(),
-                        Icon(
+                        const Spacer(),
+                        const Icon(
                           Icons.done,
                           size: 15,
-                          color: const Color.fromRGBO(125, 132, 141, 1),
+                          color: Color.fromRGBO(125, 132, 141, 1),
                         ),
                         Text(
                           "07.56",
@@ -277,10 +277,10 @@ party on Saturday?''',
                       ],
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 20,
                   ),
-                  Container(
+                  SizedBox(
                     height: 70,
                     width: 335,
                     child: Row(
@@ -308,11 +308,11 @@ party on Saturday?''',
                             )
                           ],
                         ),
-                        Spacer(),
-                        Icon(
+                        const Spacer(),
+                        const Icon(
                           Icons.done_all,
                           size: 15,
-                          color: const Color.fromRGBO(25, 176, 0, 1),
+                          color: Color.fromRGBO(25, 176, 0, 1),
                         ),
                         Text(
                           "05.52",
@@ -328,7 +328,6 @@ party on Saturday?''',
                 ],
               ),
             ),
-            
           ],
         ),
       ),

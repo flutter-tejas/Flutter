@@ -1,0 +1,30 @@
+name: plants_store
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/3af97d728934d9da1f37e8707df89cfa.png
+    - assets/06e3d6f589ca5c2be8b026d881625a02.png
+    - assets/a4b8f8c8b880e7728c6e779fd09eb39f.png
+    - assets/e4aa1a4777e388bd065fb4838616e81b.png
+    - assets/Group 5314.png
+    - assets/Vector.png
+    - assets/thermometer.png
+    - assets/Group 5470.png

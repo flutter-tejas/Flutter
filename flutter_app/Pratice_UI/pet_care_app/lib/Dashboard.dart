@@ -17,539 +17,547 @@ class _DashboardState extends State<Dashboard> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(245, 245, 247, 1),
-      body: SingleChildScrollView(
-        child: Column(
-          children: [
-            Padding(
-              padding: const EdgeInsets.only(top: 60, left: 24, right: 24),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Container(
-                    height: 56,
-                    width: 56,
-                    decoration: BoxDecoration(
-                      image: DecorationImage(
-                        image: AssetImage("assets/image.png"),
-                      ),
+      backgroundColor: const Color.fromRGBO(245, 245, 247, 1),
+      body: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.only(top: 60, left: 24, right: 24),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Container(
+                  height: 56,
+                  width: 56,
+                  decoration: const BoxDecoration(
+                    image: DecorationImage(
+                      image: AssetImage("assets/image.png"),
                     ),
                   ),
-                  SizedBox(
-                    width: 10,
-                  ),
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        "Hello, Sarah",
-                        style: GoogleFonts.poppins(
-                          fontWeight: FontWeight.w500,
-                          fontSize: 14,
-                          color: const Color.fromRGBO(0, 0, 0, 1),
-                        ),
+                ),
+                const SizedBox(
+                  width: 10,
+                ),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      "Hello, Sarah",
+                      style: GoogleFonts.poppins(
+                        fontWeight: FontWeight.w500,
+                        fontSize: 14,
+                        color: const Color.fromRGBO(0, 0, 0, 1),
                       ),
-                      Text(
-                        "Good Morning!",
-                        style: GoogleFonts.poppins(
-                          fontWeight: FontWeight.w400,
-                          fontSize: 14,
-                          color: const Color.fromRGBO(194, 195, 204, 1),
-                        ),
+                    ),
+                    Text(
+                      "Good Morning!",
+                      style: GoogleFonts.poppins(
+                        fontWeight: FontWeight.w400,
+                        fontSize: 14,
+                        color: const Color.fromRGBO(194, 195, 204, 1),
                       ),
-                    ],
-                  ),
-                  Spacer(),
-                  Column(
-                    children: [
-                      GestureDetector(
-                        onTap: () {
-                          Navigator.of(context)
-                              .push(MaterialPageRoute(builder: (context) {
-                            return Notification_Screen();
-                          }));
-                        },
-                        child: Icon(
-                          Icons.notifications_none,
-                          color: Color.fromRGBO(25, 25, 25, 1),
-                        ),
+                    ),
+                  ],
+                ),
+                const Spacer(),
+                Column(
+                  children: [
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.of(context)
+                            .push(MaterialPageRoute(builder: (context) {
+                          return const Notification_Screen();
+                        }));
+                      },
+                      child: const Icon(
+                        Icons.notifications_none,
+                        color: Color.fromRGBO(25, 25, 25, 1),
                       ),
-                    ],
-                  )
-                ],
-              ),
+                    ),
+                  ],
+                )
+              ],
             ),
-            Padding(
-              padding: EdgeInsets.only(top: 8, bottom: 8, left: 24, right: 24),
-              child: TextField(
-                decoration: InputDecoration(
-                    suffixIcon: Icon(
-                      Icons.search,
+          ),
+          Padding(
+            padding:
+                const EdgeInsets.only(top: 8, bottom: 8, left: 24, right: 24),
+            child: TextField(
+              decoration: InputDecoration(
+                  suffixIcon: const Icon(
+                    Icons.search,
+                    color: Color.fromRGBO(245, 146, 69, 1),
+                  ),
+                  enabledBorder: const OutlineInputBorder(
+                    borderRadius: BorderRadius.all(
+                      Radius.circular(8),
+                    ),
+                    borderSide: BorderSide(
+                      width: 2,
                       color: Color.fromRGBO(245, 146, 69, 1),
                     ),
-                    enabledBorder: const OutlineInputBorder(
-                      borderRadius: BorderRadius.all(
-                        Radius.circular(8),
-                      ),
-                      borderSide: BorderSide(
-                        width: 2,
-                        color: Color.fromRGBO(245, 146, 69, 1),
-                      ),
-                      gapPadding: 4,
-                    ),
-                    focusedBorder: const OutlineInputBorder(
-                      borderRadius: BorderRadius.all(
-                        Radius.circular(8),
-                      ),
-                      borderSide: BorderSide(
-                        width: 2,
-                        color: Color.fromRGBO(245, 146, 69, 1),
-                      ),
-                    ),
-                    hintText: "Search ",
-                    hintStyle: GoogleFonts.poppins(
-                      fontWeight: FontWeight.w400,
-                      fontSize: 12,
-                      color: const Color.fromRGBO(194, 195, 204, 1),
-                    )),
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.only(top: 15, bottom: 15),
-              child: Container(
-                width: 390,
-                height: 110,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(16),
-                  color: const Color.fromRGBO(255, 255, 255, 1),
-                  boxShadow: [
-                    BoxShadow(
-                      offset: Offset(0, 8),
-                      blurRadius: 16,
-                      spreadRadius: -4,
-                      color: Color.fromRGBO(22, 34, 51, 0.08),
-                    ),
-                  ],
-                ),
-                child: Padding(
-                  padding: const EdgeInsets.all(10.0),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    children: [
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        children: [
-                          Text(
-                            "In Love With Pets?",
-                            style: GoogleFonts.poppins(
-                              fontWeight: FontWeight.w600,
-                              fontSize: 16,
-                              color: const Color.fromRGBO(0, 0, 0, 1),
-                            ),
-                          ),
-                          Text(
-                            "Get all what you need for them",
-                            style: GoogleFonts.poppins(
-                              fontWeight: FontWeight.w500,
-                              fontSize: 12,
-                              color: Color.fromRGBO(245, 146, 69, 1),
-                            ),
-                          ),
-                        ],
-                      ),
-                      Spacer(),
-                      Container(
-                        width: 100,
-                        height: 100,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(8),
-                          boxShadow: const [
-                            BoxShadow(
-                              offset: Offset(0, 11),
-                              blurRadius: 25,
-                              color: Color.fromRGBO(22, 34, 51, 0.08),
-                            ),
-                          ],
-                          image: DecorationImage(
-                              image: AssetImage("assets/Frame 2016.jpeg"),
-                              fit: BoxFit.cover),
-                        ),
-                      ),
-                    ],
+                    gapPadding: 4,
                   ),
-                ),
-              ),
-            ),
-            Padding(
-              padding: EdgeInsets.only(top: 8, bottom: 8, left: 24, right: 24),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    "Category",
-                    style: GoogleFonts.poppins(
-                      fontWeight: FontWeight.w500,
-                      fontSize: 14,
-                      color: Color.fromRGBO(0, 0, 0, 1),
+                  focusedBorder: const OutlineInputBorder(
+                    borderRadius: BorderRadius.all(
+                      Radius.circular(8),
+                    ),
+                    borderSide: BorderSide(
+                      width: 2,
+                      color: Color.fromRGBO(245, 146, 69, 1),
                     ),
                   ),
-                  Text(
-                    "See All",
-                    style: GoogleFonts.poppins(
-                      fontWeight: FontWeight.w400,
-                      fontSize: 12,
-                      color: Color.fromRGBO(194, 195, 204, 1),
-                    ),
+                  hintText: "Search ",
+                  hintStyle: GoogleFonts.poppins(
+                    fontWeight: FontWeight.w400,
+                    fontSize: 12,
+                    color: const Color.fromRGBO(194, 195, 204, 1),
+                  )),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(top: 15, bottom: 15),
+            child: Container(
+              width: 390,
+              height: 110,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(16),
+                color: const Color.fromRGBO(255, 255, 255, 1),
+                boxShadow: const [
+                  BoxShadow(
+                    offset: Offset(0, 8),
+                    blurRadius: 16,
+                    spreadRadius: -4,
+                    color: Color.fromRGBO(22, 34, 51, 0.08),
                   ),
                 ],
               ),
-            ),
-            Padding(
-              padding: EdgeInsets.only(top: 8, bottom: 8, left: 24, right: 24),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Column(
-                    children: [
-                      GestureDetector(
-                        onTap: () {
-                          Navigator.of(context)
-                              .push(MaterialPageRoute(builder: (context) {
-                            return Veterinary_Screen();
-                          }));
-                        },
-                        child: Container(
-                          height: 54,
-                          width: 54,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(100),
-                            image: DecorationImage(
-                              image: AssetImage("assets/image (20).png"),
-                            ),
+              child: Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Text(
+                          "In Love With Pets?",
+                          style: GoogleFonts.poppins(
+                            fontWeight: FontWeight.w600,
+                            fontSize: 16,
+                            color: const Color.fromRGBO(0, 0, 0, 1),
                           ),
                         ),
-                      ),
-                      SizedBox(
-                        height: 5,
-                      ),
-                      Text(
-                        "Veterinary",
-                        style: GoogleFonts.poppins(
-                          fontWeight: FontWeight.w400,
-                          fontSize: 12,
-                          color: Color.fromRGBO(0, 0, 0, 1),
-                        ),
-                      )
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      GestureDetector(
-                        onTap: () {
-                          Navigator.of(context)
-                              .push(MaterialPageRoute(builder: (context) {
-                            return Grooming_screen();
-                          }));
-                        },
-                        child: Container(
-                          height: 54,
-                          width: 54,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(100),
-                            image: DecorationImage(
-                              image: AssetImage("assets/image (2).png"),
-                            ),
+                        Text(
+                          "Get all what you need for them",
+                          style: GoogleFonts.poppins(
+                            fontWeight: FontWeight.w500,
+                            fontSize: 12,
+                            color: const Color.fromRGBO(245, 146, 69, 1),
                           ),
-                        ),
-                      ),
-                      SizedBox(
-                        height: 5,
-                      ),
-                      Text(
-                        "Grooming",
-                        style: GoogleFonts.poppins(
-                          fontWeight: FontWeight.w400,
-                          fontSize: 12,
-                          color: Color.fromRGBO(0, 0, 0, 1),
-                        ),
-                      )
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      GestureDetector(
-                        onTap: () {
-                          Navigator.of(context)
-                              .push(MaterialPageRoute(builder: (context) {
-                            return Store_Screen();
-                          }));
-                        },
-                        child: Container(
-                          height: 54,
-                          width: 54,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(100),
-                            image: DecorationImage(
-                              image: AssetImage("assets/image (3).png"),
-                            ),
-                          ),
-                        ),
-                      ),
-                      SizedBox(
-                        height: 5,
-                      ),
-                      Text(
-                        "Pet Store",
-                        style: GoogleFonts.poppins(
-                          fontWeight: FontWeight.w400,
-                          fontSize: 12,
-                          color: Color.fromRGBO(0, 0, 0, 1),
-                        ),
-                      )
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      GestureDetector(
-                        onTap: () {
-                          Navigator.of(context)
-                              .push(MaterialPageRoute(builder: (context) {
-                            return Training_Screen();
-                          }));
-                        },
-                        child: Container(
-                          height: 54,
-                          width: 54,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(100),
-                            image: DecorationImage(
-                              image: AssetImage("assets/image (4).png"),
-                            ),
-                          ),
-                        ),
-                      ),
-                      SizedBox(
-                        height: 5,
-                      ),
-                      Text(
-                        "Training",
-                        style: GoogleFonts.poppins(
-                          fontWeight: FontWeight.w400,
-                          fontSize: 12,
-                          color: Color.fromRGBO(0, 0, 0, 1),
-                        ),
-                      )
-                    ],
-                  )
-                ],
-              ),
-            ),
-            Padding(
-              padding: EdgeInsets.only(top: 8, bottom: 8, left: 24, right: 24),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    "Event",
-                    style: GoogleFonts.poppins(
-                      fontWeight: FontWeight.w500,
-                      fontSize: 14,
-                      color: Color.fromRGBO(0, 0, 0, 1),
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.only(top: 15, bottom: 15),
-              child: Container(
-                width: 390,
-                height: 150,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(16),
-                  color: const Color.fromRGBO(255, 255, 255, 1),
-                  boxShadow: const [
-                    BoxShadow(
-                      offset: Offset(0, 8),
-                      blurRadius: 16,
-                      spreadRadius: -4,
-                      color: Color.fromRGBO(22, 34, 51, 0.08),
-                    ),
-                  ],
-                ),
-                child: Padding(
-                  padding: const EdgeInsets.all(10.0),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    children: [
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            '''Find and Join Special
-Events For Your Pets !''',
-                            style: GoogleFonts.poppins(
-                              fontWeight: FontWeight.w600,
-                              fontSize: 16,
-                              color: const Color.fromRGBO(0, 0, 0, 1),
-                            ),
-                          ),
-                          Spacer(),
-                          Container(
-                            height: 34,
-                            width: 89,
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(8),
-                              color: Color.fromRGBO(245, 146, 69, 1),
-                            ),
-                            child: Padding(
-                              padding: const EdgeInsets.all(8.0),
-                              child: Text(
-                                "See More",
-                                textAlign: TextAlign.center,
-                                style: GoogleFonts.poppins(
-                                  fontWeight: FontWeight.w600,
-                                  fontSize: 12,
-                                  color:
-                                      const Color.fromRGBO(255, 0255, 0255, 1),
-                                ),
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                      Spacer(),
-                      Container(
-                        height: 170,
-                        width: 170,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(8),
-                          boxShadow: const [
-                            BoxShadow(
-                              offset: Offset(0, 8),
-                              blurRadius: 16,
-                              spreadRadius: -4,
-                              color: Color.fromRGBO(22, 34, 51, 0.08),
-                            ),
-                          ],
-                          image: DecorationImage(
-                              image: AssetImage("assets/image (5).png"),
-                              fit: BoxFit.cover),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ),
-            Padding(
-              padding: EdgeInsets.only(top: 8, bottom: 8, left: 24, right: 24),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    "Community",
-                    style: GoogleFonts.poppins(
-                      fontWeight: FontWeight.w500,
-                      fontSize: 14,
-                      color: Color.fromRGBO(0, 0, 0, 1),
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            Column(
-              children: [
-                Padding(
-                  padding: const EdgeInsets.only(top: 15, bottom: 15),
-                  child: Container(
-                    width: 390,
-                    height: 150,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(16),
-                      color: const Color.fromRGBO(255, 255, 255, 1),
-                      boxShadow: const [
-                        BoxShadow(
-                          offset: Offset(0, 8),
-                          blurRadius: 16,
-                          spreadRadius: -4,
-                          color: Color.fromRGBO(22, 34, 51, 0.08),
                         ),
                       ],
                     ),
-                    child: Padding(
-                      padding: const EdgeInsets.all(10.0),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        children: [
-                          Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                '''Connect and share with
-Communities''',
-                                style: GoogleFonts.poppins(
-                                  fontWeight: FontWeight.w600,
-                                  fontSize: 16,
-                                  color: const Color.fromRGBO(0, 0, 0, 1),
-                                ),
-                              ),
-                              Spacer(),
-                              Container(
-                                height: 34,
-                                width: 89,
-                                decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(8),
-                                  color: Color.fromRGBO(245, 146, 69, 1),
-                                ),
-                                child: Padding(
-                                  padding: const EdgeInsets.all(8.0),
-                                  child: Text(
-                                    "See More",
-                                    textAlign: TextAlign.center,
-                                    style: GoogleFonts.poppins(
-                                      fontWeight: FontWeight.w600,
-                                      fontSize: 12,
-                                      color: const Color.fromRGBO(
-                                          255, 0255, 0255, 1),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                          Spacer(),
-                          Container(
-                            height: 170,
-                            width: 170,
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(8),
-                              boxShadow: const [
-                                BoxShadow(
-                                  offset: Offset(0, 8),
-                                  blurRadius: 16,
-                                  spreadRadius: -4,
-                                  color: Color.fromRGBO(22, 34, 51, 0.08),
-                                ),
-                              ],
-                              image: DecorationImage(
-                                  image: AssetImage("assets/image (21).png"),
-                                  fit: BoxFit.cover),
-                            ),
+                    const Spacer(),
+                    Container(
+                      width: 100,
+                      height: 100,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(8),
+                        boxShadow: const [
+                          BoxShadow(
+                            offset: Offset(0, 11),
+                            blurRadius: 25,
+                            color: Color.fromRGBO(22, 34, 51, 0.08),
                           ),
                         ],
+                        image: const DecorationImage(
+                            image: AssetImage("assets/Frame 2016.jpeg"),
+                            fit: BoxFit.cover),
                       ),
                     ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Padding(
+            padding:
+                const EdgeInsets.only(top: 8, bottom: 8, left: 24, right: 24),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  "Category",
+                  style: GoogleFonts.poppins(
+                    fontWeight: FontWeight.w500,
+                    fontSize: 14,
+                    color: const Color.fromRGBO(0, 0, 0, 1),
+                  ),
+                ),
+                Text(
+                  "See All",
+                  style: GoogleFonts.poppins(
+                    fontWeight: FontWeight.w400,
+                    fontSize: 12,
+                    color: const Color.fromRGBO(194, 195, 204, 1),
                   ),
                 ),
               ],
-            )
-          ],
-        ),
+            ),
+          ),
+          Padding(
+            padding:
+                const EdgeInsets.only(top: 8, bottom: 8, left: 24, right: 24),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Column(
+                  children: [
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.of(context)
+                            .push(MaterialPageRoute(builder: (context) {
+                          return const Veterinary_Screen();
+                        }));
+                      },
+                      child: Container(
+                        height: 54,
+                        width: 54,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(100),
+                          image: const DecorationImage(
+                            image: AssetImage("assets/image (20).png"),
+                          ),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    Text(
+                      "Veterinary",
+                      style: GoogleFonts.poppins(
+                        fontWeight: FontWeight.w400,
+                        fontSize: 12,
+                        color: const Color.fromRGBO(0, 0, 0, 1),
+                      ),
+                    )
+                  ],
+                ),
+                Column(
+                  children: [
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.of(context)
+                            .push(MaterialPageRoute(builder: (context) {
+                          return const Grooming_screen();
+                        }));
+                      },
+                      child: Container(
+                        height: 54,
+                        width: 54,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(100),
+                          image: const DecorationImage(
+                            image: AssetImage("assets/image (2).png"),
+                          ),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    Text(
+                      "Grooming",
+                      style: GoogleFonts.poppins(
+                        fontWeight: FontWeight.w400,
+                        fontSize: 12,
+                        color: const Color.fromRGBO(0, 0, 0, 1),
+                      ),
+                    )
+                  ],
+                ),
+                Column(
+                  children: [
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.of(context)
+                            .push(MaterialPageRoute(builder: (context) {
+                          return const Store_Screen();
+                        }));
+                      },
+                      child: Container(
+                        height: 54,
+                        width: 54,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(100),
+                          image: const DecorationImage(
+                            image: AssetImage("assets/image (3).png"),
+                          ),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    Text(
+                      "Pet Store",
+                      style: GoogleFonts.poppins(
+                        fontWeight: FontWeight.w400,
+                        fontSize: 12,
+                        color: const Color.fromRGBO(0, 0, 0, 1),
+                      ),
+                    )
+                  ],
+                ),
+                Column(
+                  children: [
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.of(context)
+                            .push(MaterialPageRoute(builder: (context) {
+                          return const Training_Screen();
+                        }));
+                      },
+                      child: Container(
+                        height: 54,
+                        width: 54,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(100),
+                          image: const DecorationImage(
+                            image: AssetImage("assets/image (4).png"),
+                          ),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    Text(
+                      "Training",
+                      style: GoogleFonts.poppins(
+                        fontWeight: FontWeight.w400,
+                        fontSize: 12,
+                        color: const Color.fromRGBO(0, 0, 0, 1),
+                      ),
+                    )
+                  ],
+                )
+              ],
+            ),
+          ),
+          Padding(
+            padding:
+                const EdgeInsets.only(top: 8, bottom: 8, left: 24, right: 24),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  "Event",
+                  style: GoogleFonts.poppins(
+                    fontWeight: FontWeight.w500,
+                    fontSize: 14,
+                    color: const Color.fromRGBO(0, 0, 0, 1),
+                  ),
+                ),
+              ],
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(top: 15, bottom: 15),
+            child: Container(
+              width: 390,
+              height: 150,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(16),
+                color: const Color.fromRGBO(255, 255, 255, 1),
+                boxShadow: const [
+                  BoxShadow(
+                    offset: Offset(0, 8),
+                    blurRadius: 16,
+                    spreadRadius: -4,
+                    color: Color.fromRGBO(22, 34, 51, 0.08),
+                  ),
+                ],
+              ),
+              child: Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          '''Find and Join Special
+Events For Your Pets !''',
+                          style: GoogleFonts.poppins(
+                            fontWeight: FontWeight.w600,
+                            fontSize: 16,
+                            color: const Color.fromRGBO(0, 0, 0, 1),
+                          ),
+                        ),
+                        const Spacer(),
+                        Container(
+                          height: 34,
+                          width: 89,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(8),
+                            color: const Color.fromRGBO(245, 146, 69, 1),
+                          ),
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text(
+                              "See More",
+                              textAlign: TextAlign.center,
+                              style: GoogleFonts.poppins(
+                                fontWeight: FontWeight.w600,
+                                fontSize: 12,
+                                color: const Color.fromRGBO(255, 0255, 0255, 1),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                    const Spacer(),
+                    Container(
+                      height: 170,
+                      width: 170,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(8),
+                        boxShadow: const [
+                          BoxShadow(
+                            offset: Offset(0, 8),
+                            blurRadius: 16,
+                            spreadRadius: -4,
+                            color: Color.fromRGBO(22, 34, 51, 0.08),
+                          ),
+                        ],
+                        image: const DecorationImage(
+                            image: AssetImage("assets/image (5).png"),
+                            fit: BoxFit.cover),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Padding(
+            padding:
+                const EdgeInsets.only(top: 8, bottom: 8, left: 24, right: 24),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  "Community",
+                  style: GoogleFonts.poppins(
+                    fontWeight: FontWeight.w500,
+                    fontSize: 14,
+                    color: const Color.fromRGBO(0, 0, 0, 1),
+                  ),
+                ),
+              ],
+            ),
+          ),
+          Expanded(
+            child: SingleChildScrollView(
+              scrollDirection: Axis.vertical,
+              child: Column(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.only(top: 15, bottom: 15),
+                    child: Container(
+                      width: 390,
+                      height: 150,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(16),
+                        color: const Color.fromRGBO(255, 255, 255, 1),
+                        boxShadow: const [
+                          BoxShadow(
+                            offset: Offset(0, 8),
+                            blurRadius: 16,
+                            spreadRadius: -4,
+                            color: Color.fromRGBO(22, 34, 51, 0.08),
+                          ),
+                        ],
+                      ),
+                      child: Padding(
+                        padding: const EdgeInsets.all(10.0),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: [
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  '''Connect and share with
+                Communities''',
+                                  style: GoogleFonts.poppins(
+                                    fontWeight: FontWeight.w600,
+                                    fontSize: 16,
+                                    color: const Color.fromRGBO(0, 0, 0, 1),
+                                  ),
+                                ),
+                                const Spacer(),
+                                Container(
+                                  height: 34,
+                                  width: 89,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(8),
+                                    color:
+                                        const Color.fromRGBO(245, 146, 69, 1),
+                                  ),
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Text(
+                                      "See More",
+                                      textAlign: TextAlign.center,
+                                      style: GoogleFonts.poppins(
+                                        fontWeight: FontWeight.w600,
+                                        fontSize: 12,
+                                        color: const Color.fromRGBO(
+                                            255, 0255, 0255, 1),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                            const Spacer(),
+                            Container(
+                              height: 170,
+                              width: 170,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(8),
+                                boxShadow: const [
+                                  BoxShadow(
+                                    offset: Offset(0, 8),
+                                    blurRadius: 16,
+                                    spreadRadius: -4,
+                                    color: Color.fromRGBO(22, 34, 51, 0.08),
+                                  ),
+                                ],
+                                image: const DecorationImage(
+                                    image: AssetImage("assets/image (21).png"),
+                                    fit: BoxFit.cover),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          )
+        ],
       ),
-      bottomNavigationBar: BottomAppBar(
+      bottomNavigationBar: const BottomAppBar(
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
@@ -619,15 +627,15 @@ Communities''',
           ],
         ),
       ),
-      floatingActionButton: Container(
+      floatingActionButton: SizedBox(
         height: 70,
         width: 70,
         child: FloatingActionButton(
-          shape: CircleBorder(),
-          backgroundColor: Color(0xffF59245),
+          shape: const CircleBorder(),
+          backgroundColor: const Color(0xffF59245),
           elevation: 0,
           onPressed: () {},
-          child: Column(
+          child: const Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Icon(

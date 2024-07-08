@@ -23,10 +23,10 @@ class _Login_ScreenState extends State<Login_Screen> {
                 style: GoogleFonts.poppins(
                   fontWeight: FontWeight.bold,
                   fontSize: 32,
-                  color: Color.fromRGBO(245, 146, 69, 1),
+                  color: const Color.fromRGBO(245, 146, 69, 1),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Image.asset("assets/Brandmark Logo.png"),
@@ -125,7 +125,7 @@ class _Login_ScreenState extends State<Login_Screen> {
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
               Row(
@@ -139,7 +139,7 @@ class _Login_ScreenState extends State<Login_Screen> {
                       color: const Color.fromRGBO(31, 32, 41, 1),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 5,
                   ),
                   Text(
@@ -152,21 +152,21 @@ class _Login_ScreenState extends State<Login_Screen> {
                   ),
                 ],
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               GestureDetector(
                 onTap: () {
                   Navigator.of(context)
                       .push(MaterialPageRoute(builder: (context) {
-                    return Dashboard();
+                    return const Dashboard();
                   }));
                 },
                 child: Container(
                   height: 48,
                   width: 390,
                   decoration: BoxDecoration(
-                    color: Color.fromRGBO(245, 146, 69, 1),
+                    color: const Color.fromRGBO(245, 146, 69, 1),
                     borderRadius: BorderRadius.circular(8),
                   ),
                   child: Row(
@@ -184,14 +184,14 @@ class _Login_ScreenState extends State<Login_Screen> {
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Container(
                 height: 48,
                 width: 390,
                 decoration: BoxDecoration(
-                  color: Color.fromRGBO(245, 146, 69, 1),
+                  color: const Color.fromRGBO(245, 146, 69, 1),
                   borderRadius: BorderRadius.circular(8),
                 ),
                 child: Row(
@@ -208,14 +208,14 @@ class _Login_ScreenState extends State<Login_Screen> {
                   ],
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Container(
                 height: 48,
                 width: 390,
                 decoration: BoxDecoration(
-                  color: Color.fromRGBO(245, 146, 69, 1),
+                  color: const Color.fromRGBO(245, 146, 69, 1),
                   borderRadius: BorderRadius.circular(8),
                 ),
                 child: Row(
@@ -232,7 +232,7 @@ class _Login_ScreenState extends State<Login_Screen> {
                   ],
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Text(

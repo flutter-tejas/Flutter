@@ -36,6 +36,8 @@ class _GetStartedState extends State<GetStarted> {
             children: [
               Image.asset(
                 "assets/Rectangle 1.png",
+                width: double.infinity,
+                height: 700,
                 fit: BoxFit.contain,
               ),
             ],

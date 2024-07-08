@@ -26,7 +26,7 @@ class _Screen4State extends State<Screen4> {
                   end: Alignment.bottomRight,
                   stops: [0.2, 0.1],
                   colors: [
-                    const Color.fromRGBO(36, 44, 59, 1),
+                    Color.fromRGBO(36, 44, 59, 1),
                     Color.fromRGBO(75, 76, 237, 1),
                   ],
                 ),
@@ -359,7 +359,7 @@ class _Screen4State extends State<Screen4> {
                           ),
                         ),
                         const SizedBox(
-                          width: 90,
+                          width: 100,
                         ),
                         Container(
                           height: 31,
@@ -510,7 +510,7 @@ class _Screen4State extends State<Screen4> {
                           ),
                         ),
                         const SizedBox(
-                          width: 90,
+                          width: 110,
                         ),
                         Container(
                           height: 31,

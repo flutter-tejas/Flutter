@@ -93,7 +93,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     onTap: () {
                       Navigator.of(context)
                           .push(MaterialPageRoute(builder: (context) {
-                        return WorkoutScreen();
+                        return const WorkoutScreen();
                       }));
                     },
                     child: Container(
@@ -363,7 +363,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       width: 350,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(23),
-                        color: Color.fromRGBO(255, 255, 255, 1),
+                        color: const Color.fromRGBO(255, 255, 255, 1),
                       ),
                       child: Expanded(
                         child: Stack(children: [
@@ -374,7 +374,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               "assets/Image (1).png",
                             ),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             width: 10,
                           ),
                           Positioned(
@@ -392,7 +392,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     color: const Color.fromRGBO(25, 33, 38, 1),
                                   ),
                                 ),
-                                SizedBox(
+                                const SizedBox(
                                   height: 5,
                                 ),
                                 Text(
@@ -404,7 +404,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                         const Color.fromRGBO(25, 33, 38, 0.5),
                                   ),
                                 ),
-                                SizedBox(
+                                const SizedBox(
                                   height: 10,
                                 ),
                                 LinearPercentIndicator(
@@ -412,10 +412,10 @@ class _HomeScreenState extends State<HomeScreen> {
                                   lineHeight: 16,
                                   percent: 0.4,
                                   backgroundColor:
-                                      Color.fromRGBO(242, 242, 242, 1),
+                                      const Color.fromRGBO(242, 242, 242, 1),
                                   progressColor:
-                                      Color.fromRGBO(187, 242, 70, 1),
-                                  center: Text(
+                                      const Color.fromRGBO(187, 242, 70, 1),
+                                  center: const Text(
                                     "45%",
                                   ),
                                   animation: true,
@@ -431,7 +431,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 Container(
                                   height: 19,
                                   width: 81,
-                                  decoration: BoxDecoration(
+                                  decoration: const BoxDecoration(
                                     borderRadius: BorderRadius.only(
                                       bottomRight: Radius.circular(6),
                                       bottomLeft: Radius.circular(6),
@@ -456,7 +456,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         ]),
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 20,
                     ),
                     Container(
@@ -464,7 +464,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       width: 350,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(23),
-                        color: Color.fromRGBO(255, 255, 255, 1),
+                        color: const Color.fromRGBO(255, 255, 255, 1),
                       ),
                       child: Expanded(
                         child: Stack(children: [
@@ -475,7 +475,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               "assets/Mask group (1).png",
                             ),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             width: 10,
                           ),
                           Positioned(
@@ -493,7 +493,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     color: const Color.fromRGBO(25, 33, 38, 1),
                                   ),
                                 ),
-                                SizedBox(
+                                const SizedBox(
                                   height: 5,
                                 ),
                                 Text(
@@ -505,7 +505,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                         const Color.fromRGBO(25, 33, 38, 0.5),
                                   ),
                                 ),
-                                SizedBox(
+                                const SizedBox(
                                   height: 10,
                                 ),
                                 LinearPercentIndicator(
@@ -513,10 +513,10 @@ class _HomeScreenState extends State<HomeScreen> {
                                   lineHeight: 16,
                                   percent: 0.65,
                                   backgroundColor:
-                                      Color.fromRGBO(242, 242, 242, 1),
+                                      const Color.fromRGBO(242, 242, 242, 1),
                                   progressColor:
-                                      Color.fromRGBO(187, 242, 70, 1),
-                                  center: Text(
+                                      const Color.fromRGBO(187, 242, 70, 1),
+                                  center: const Text(
                                     "75%",
                                   ),
                                   animation: true,
@@ -532,7 +532,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 Container(
                                   height: 19,
                                   width: 81,
-                                  decoration: BoxDecoration(
+                                  decoration: const BoxDecoration(
                                     borderRadius: BorderRadius.only(
                                       bottomRight: Radius.circular(6),
                                       bottomLeft: Radius.circular(6),
@@ -557,7 +557,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         ]),
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 20,
                     ),
                     Container(
@@ -565,7 +565,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       width: 350,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(23),
-                        color: Color.fromRGBO(255, 255, 255, 1),
+                        color: const Color.fromRGBO(255, 255, 255, 1),
                       ),
                       child: Expanded(
                         child: Stack(children: [
@@ -576,7 +576,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               "assets/Mask group.png",
                             ),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             width: 10,
                           ),
                           Positioned(
@@ -594,7 +594,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     color: const Color.fromRGBO(25, 33, 38, 1),
                                   ),
                                 ),
-                                SizedBox(
+                                const SizedBox(
                                   height: 5,
                                 ),
                                 Text(
@@ -606,7 +606,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                         const Color.fromRGBO(25, 33, 38, 0.5),
                                   ),
                                 ),
-                                SizedBox(
+                                const SizedBox(
                                   height: 10,
                                 ),
                                 LinearPercentIndicator(
@@ -614,10 +614,10 @@ class _HomeScreenState extends State<HomeScreen> {
                                   lineHeight: 16,
                                   percent: 0.4,
                                   backgroundColor:
-                                      Color.fromRGBO(242, 242, 242, 1),
+                                      const Color.fromRGBO(242, 242, 242, 1),
                                   progressColor:
-                                      Color.fromRGBO(187, 242, 70, 1),
-                                  center: Text(
+                                      const Color.fromRGBO(187, 242, 70, 1),
+                                  center: const Text(
                                     "45%",
                                   ),
                                   animation: true,
@@ -633,7 +633,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 Container(
                                   height: 19,
                                   width: 81,
-                                  decoration: BoxDecoration(
+                                  decoration: const BoxDecoration(
                                     borderRadius: BorderRadius.only(
                                       bottomRight: Radius.circular(6),
                                       bottomLeft: Radius.circular(6),

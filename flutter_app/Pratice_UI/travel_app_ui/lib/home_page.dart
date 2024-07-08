@@ -36,7 +36,7 @@ class _Home_PageState extends State<Home_Page> {
       backgroundColor: const Color.fromRGBO(247, 247, 249, 1),
       body: _widgetOptions.elementAt(_selectedIndex),
       bottomNavigationBar: BottomNavigationBar(
-        backgroundColor: Color.fromRGBO(255, 255, 255, 1),
+        backgroundColor: const Color.fromRGBO(255, 255, 255, 1),
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
@@ -61,8 +61,8 @@ class _Home_PageState extends State<Home_Page> {
         ],
         currentIndex: _selectedIndex,
         onTap: _onItemTapped,
-        unselectedItemColor: Color.fromRGBO(125, 132, 141, 1),
-        selectedItemColor: Color.fromRGBO(13, 110, 253, 1),
+        unselectedItemColor: const Color.fromRGBO(125, 132, 141, 1),
+        selectedItemColor: const Color.fromRGBO(13, 110, 253, 1),
         showUnselectedLabels: true,
       ),
     );
